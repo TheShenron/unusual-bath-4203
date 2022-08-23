@@ -7,7 +7,12 @@ https://www.mynetdiary.com/
 
 
 ## 🛠 Tech Stack :
-![MIT License](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFDrSTybBeG1Vnlge291vZT62gQalbldPKOQ&usqp=CAU)
+![MIT License](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+
+![MIT License](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+![MIT License](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+
 
 
 
