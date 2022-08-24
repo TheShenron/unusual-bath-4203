@@ -1,0 +1,14 @@
+#lib_bodyside{
+    width:100%;
+    height:800px;
+    display:flex;
+}
+#lib_body{
+    width:20%;
+    
+}
+
+#lib_sidebar{
+ width:70%;
+
+}
