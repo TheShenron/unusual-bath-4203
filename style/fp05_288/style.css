@@ -1,0 +1,89 @@
+
+/* library body css */
+/* both body and sidebar */
+#lib_bodyside{
+    width:100%;
+    height:800px;
+    display:flex;
+    border:1px solid red;
+    justify-content: space-between;
+}
+/* only sidebar  */
+#lib_sidebar{
+    width:25%;
+    border:1px solid blue;
+    
+}
+/* only body */
+#lib_body{
+ width:70%;
+ border:1px solid green;
+ 
+}
+/* body related css */
+
+#lib_body>p{
+      font-size: 20px;
+     line-height:30px; 
+     font-family: Cabin Condensed;
+     color:#46618a;
+}
+#lib_body>h1{
+    font-size:50px;
+    font-family: Rubik,Helvetica,Arial,sans-serif;
+    color: #268fd0;
+    font-weight: 500;
+}
+.Planning_Weight{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:50px;
+    border:1px solid greenyellow;
+    
+}
+#lib_body>div>div{
+    padding-bottom: 20px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius:5%;
+    overflow: hidden;  
+    
+} 
+#lib_body>div>div>h3{
+    border:0px solid red;
+    width:90%;
+    margin:auto;
+    margin-top:20px;
+    font-family: Rubik,Helvetica,Arial,sans-serif;
+    color:#46618a;
+    background-color: transparent;
+    font-size:28px;
+
+}
+  #lib_body>div>div>h3+p{
+    border:0px solid green;
+    width:90%;
+    margin:auto;
+    color:#c6d2e4;
+}  
+#lib_body>div>div>p+p{
+    border:0px solid red;
+    width:90%;
+    margin:auto;
+    margin-top:10px;
+    line-height: 30px;
+    color:#46618a;
+    font-family: Cabin;
+    font-size:20px;
+    overflow-wrap: break-word;
+    font-weight: 500;
+
+}
+.Planning_Weight img{
+    width:100%;
+}
+
+/* Diabetic articles css */
+#iphone,#android{
+    color:greenyellow;
+
+}
