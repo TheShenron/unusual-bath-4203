@@ -1,3 +1,88 @@
-h1{
-    color: red;
-}
+:root {
+    --c1: rgb(38,143,208);
+    --c2: rgb(11,184,118);
+    --c3: rgb(70,97,138);
+    --Bhead: rgb(9,145,61)
+  }
+
+  #Business_page{
+    width: 80%;
+    margin: auto;
+  }
+
+
+  .Bpage_title{
+    background-color: var(--Bhead);
+    color: white;
+    font-size: 23px;
+    text-align: center;
+    padding: 40px;
+    border-radius: 0px 0px 50% 50% / 0px 0px 20px 20px;
+  }
+
+
+  .BPage_content > img{
+    margin: 50px 0;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 80px 0px;
+  }
+
+
+  .BPage_content > div > P ,
+  .BPage_content > div > ul
+  {
+    color: var(--c3);
+    font-size: 20px;
+    margin-bottom: 30px;
+    line-height: 30px;
+  }
+
+  .BPage_content > div > ul{
+    margin-left: 40px;
+  }
+
+
+  .c1 {
+    color: var(--c1);
+    margin: 55px 0;
+    font-size: 48px;
+  }
+
+  .c2 {
+    color: var(--c2);
+    margin: 50px 0;
+    font-size: 42px;
+  }
+
+  .c2:hover{
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+
+  .c3 {
+    color: var(--c3);
+    margin: 50px 0;
+    font-size: 42px;
+  }
+
+
+  span.BP {
+    color: var(--c2);
+  }
+
+  span.BP:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+
+  span.date{
+    display: block;
+    color: var(--c3);
+  }
+
+  
+
+
