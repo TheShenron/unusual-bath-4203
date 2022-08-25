@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'> 
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: black;
+        }
+        img{
+            width: 57px;
+            border-radius: 50%;
+        }
+        #navbar{
+            display: flex;
+            justify-content: space-between;
+            border: 1px solid blue;
+            padding: 25px;
+            height: 59px;
+            background-color: white;
+
+        }
+        #left{
+            width: 15%;
+            font-size: 30px;
+            border: 1px solid red;
+            display: flex;
+            align-items: center;
+
+        }
+
+
+
+
+
+        #middle{
+            width: 40%;
+            font-size: 20px;
+            display: flex;
+            border: 1px solid red;
+            justify-content: space-around;
+            align-items: center;
+            height: 60px;
+        
+        }
+
+
+        #middle ul{
+            float: left;
+        }
+
+        #middle ul li{
+            float: left;
+            list-style: none;
+            position: relative;
+
+        }
+        #middle ul li a:hover{
+            color: orange;
+        }
+
+        #middle ul li a{
+            display: block;
+
+            font-family: Arial, Helvetica, sans-serif;
+            color: #222;
+            font-size: 24px;
+            padding: 15px 14px;
+            text-decoration: none;
+
+        }
+
+
+
+        #middle ul li ul{
+            display: none;
+            position: absolute;
+            background-color: white;
+            padding: 10px;
+            border-radius: 0px 0px 4px 4px;
+
+        }
+
+        #middle ul li:hover ul{
+            display: block;
+            
+
+        }
+
+
+        #middle ul li ul li a{
+            padding: 8px 14px;
+
+        }
+        #middle ul li ul li{
+           width: 380px;
+           border-radius: 0px 0px 4px 4px;
+
+        }
+
+
+        #middle ul li ul li a:hover{
+            padding: 8px 14px;
+            background-color: orange;
+            pad
+
+        }
+
+
+
+
+
+
+
+        #right{
+            width: 20%;
+            font-size: 30px;
+            border: 1px solid red;
+            display: flex;
+            justify-content: space-between;
+            
+
+        }
+        #signup,#signin{
+            border-radius: 20px;
+            width: 45%;
+            /* height: 100%; */
+            font-size: 20px;
+            
+        }
+
+
+    </style>
+</head>
+<body>
+    <!-- in this navbar three main sections are created left,middle and right you can target them with id's  -->
+    <div id="navbar">
+        <div id="left">
+            <img src="https://play-lh.googleusercontent.com/MhvfJAsoEvsESxp9AQg3KOwWyhRRAB1HJWlLCWmLnDucDC6bG81XsmwyVD1zbde1UZM" alt="">
+            MyNetdiary</div>
+
+
+
+        <div id="middle">
+            <ul>
+                <li><a href="#">Features</a>    
+                    <!-- this # is need to be there -->
+                <ul>
+                    <li><a href="#">iPhone & iPad app</a></li>
+                    <li><a href="#">Android app</a></li>
+                    <li><a href="#">User Reviews</a></li>
+                    <li><a href="#">MyNetDiary vs MyFitnessPal</a></li>
+    
+                </ul>
+                </li>
+                <li><a href="#">Diets<i class='fa fa-dot'></i></a>
+                    <ul>
+                        <li><a href="#"> Calorie Counting</a></li>
+                        <li><a href="#">Android app</a></li>
+                        <li><a href="#">User Reviews</a></li>
+                        <li><a href="#">MyNetDiary vs MyFitnessPal</a></li>
+        
+                    </ul>
+                </li>
+                <li><a href="#">Library</a>
+                    <ul>
+                        <li><a href="#">iPhone & iPad app</a></li>
+                        <li><a href="#">Android app</a></li>
+                        <li><a href="#">User Reviews</a></li>
+                        <li><a href="#">MyNetDiary vs MyFitnessPal</a></li>
+        
+                    </ul>
+                </li>
+                <li><a href="#">Food</a>
+                    <ul>
+                        <li><a href="#">iPhone & iPad app</a></li>
+                        <li><a href="#">Android app</a></li>
+                        <li><a href="#">User Reviews</a></li>
+                        <li><a href="#">MyNetDiary vs MyFitnessPal</a></li>
+        
+                    </ul>
+                </li>
+                <li><a href="#">Business</a>
+                    <ul>
+                        <li><a href="#">iPhone & iPad app</a></li>
+                        <li><a href="#">Android app</a></li>
+                        <li><a href="#">User Reviews</a></li>
+                        <li><a href="#">MyNetDiary vs MyFitnessPal</a></li>
+        
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+
+
+
+
+
+
+        <div id="right">
+            <button id="signup">Signup</button>
+            <button id="signin"> signin</button>
+        </div>
+    </div>
+    
+</body>
+</html>
+<script>
+
+</script>
