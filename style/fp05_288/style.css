@@ -3,7 +3,7 @@
 /* both body and sidebar */
 #lib_bodyside{
     width:100%;
-    height:800px;
+    height:auto;
     display:flex;
     border:1px solid red;
     justify-content: space-between;
@@ -59,6 +59,10 @@
     font-size:28px;
 
 }
+#lib_body>div>div:hover>h3{
+    text-decoration: underline;
+}
+
   #lib_body>div>div>h3+p{
     border:0px solid green;
     width:90%;
@@ -82,8 +86,64 @@
     width:100%;
 }
 
+
 /* Diabetic articles css */
 #iphone,#android{
     color:greenyellow;
 
 }
+#disclaimer{
+    
+    display:flex;
+    margin:auto;
+    padding:25px;
+    align-items: center;
+    margin-top:40px;
+    border-style: dashed;
+    border-color: yellowgreen;
+    border-width: 2px;
+    border-radius: 10px;
+}
+#disclaimer>p{
+    margin-left:20px;
+    font-size: 18px;
+    font-family: Rubik,Helvetica,Arial,sans-serif;
+    color:#46618a;
+    line-height: 25px;
+}
+#disc{
+    font-weight: 600;
+}
+
+/* Side bar css below */
+#diet_library{
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+    border:1px solid blue;
+}
+#diet_library>div{
+    border:1px solid red;
+    display:flex;
+    margin:auto;
+    width:100%;
+    align-items: center;
+    color:#46618a;
+}
+#diet_library img{
+    width:20%;
+    margin-right:10px;
+    height:80%;
+}
+#lib_sidebar>div{
+    border-bottom:dashed;
+    border-width: 2px;
+    border-color:#46618a;
+    color: #268fd0;
+}
+#lib_sidebar>div:hover>h2{
+    text-decoration: underline;
+}
+#diet_library>div:hover>h2{
+    text-decoration: underline;
+}
+
