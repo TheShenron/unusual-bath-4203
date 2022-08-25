@@ -1,0 +1,40 @@
+ /* *{
+    padding: 0;
+    margin: 0;
+ } */
+
+ #container {
+    
+    width: 100%;
+    height: 100%;
+    border: 2px solid red;
+    display: flex;
+    margin: auto;
+    margin-top: 150px;
+    justify-content: space-between;
+
+}
+
+.about{
+    width: 25%;
+    height: 600px;
+    border: 2px solid navy;
+}
+ h5 {
+    font: bold;
+ }
+
+.reviews {
+    width: 70%;
+    height: auto;
+    border: 2px solid blue;
+
+}
+
+#reviewbox{
+    width: 100%;
+    height: 800px;
+    border: 2px solid rgb(235, 14, 51);
+    grid-template-columns: 1, 1fr;
+    grid-template-rows: 20, 1fr;
+}
