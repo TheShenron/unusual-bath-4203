@@ -1,6 +1,7 @@
 
 /* library body css */
 /* both body and sidebar */
+
 #lib_bodyside{
     width:100%;
     height:auto;
@@ -146,4 +147,157 @@
 #diet_library>div:hover>h2{
     text-decoration: underline;
 }
+
+
+/* media query */
+@media only screen and (max-width:600px){
+    #lib_body>div>div>h3{
+        border:0px solid red;
+        width:90%;
+        margin:auto;
+        margin-top:20px;
+        font-family: Rubik,Helvetica,Arial,sans-serif;
+        color:#46618a;
+        background-color: transparent;
+        font-size:22px;
+    
+    }
+    
+    #lib_body>p{
+        font-size: 20px;
+       line-height:30px; 
+       font-family: Cabin Condensed;
+       color:#46618a;
+  }
+  #lib_body>h1{
+      font-size:30px;
+      font-family: Rubik,Helvetica,Arial,sans-serif;
+      color: #268fd0;
+      font-weight: 600;
+  }
+    .Planning_Weight{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap:50px;
+        border:0px solid red;
+        
+    }
+    #lib_sidebar{
+        width:0%;
+        border:0px solid red;
+        
+    }
+    #diet_library>div{
+        border:0px solid red;
+        display:flex;
+        margin:auto;
+        width:0%;
+        align-items: center;
+        color:#46618a;
+    }
+    #lib_body{
+        width:100%;
+        border:1px solid green;
+        
+       }
+       #diet_library img{
+        width:0;
+        margin-right:10px;
+        height:0;
+    }
+    #lib_sidebar>div{
+        border-bottom:dashed;
+        border-width: 0px;
+        border-color:#46618a;
+        color: #268fd0;
+    }
+    #lib_sidebar>div:hover>h2{
+        text-decoration: none;
+    }
+    #diet_library>div:hover>h2{
+        text-decoration: none;
+    }
+    #lib_sidebar h2{
+          color:white;
+    }
+    
+    
+}
+@media only screen and (min-width:601px) and (max-width:768px){
+    .Planning_Weight{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap:50px;
+        border:0px solid red;
+        
+    }
+    #lib_sidebar{
+        width:0%;
+        border:0px solid red;
+        
+    }
+    #diet_library>div{
+        border:0px solid red;
+        display:flex;
+        margin:auto;
+        width:0%;
+        align-items: center;
+        color:#46618a;
+    }
+    #lib_body{
+        width:100%;
+        border:1px solid green;
+        
+       }
+       #diet_library img{
+        width:0;
+        margin-right:10px;
+        height:0;
+    }
+    #lib_sidebar>div{
+        border-bottom:dashed;
+        border-width: 0px;
+        border-color:#46618a;
+        color: #268fd0;
+    }
+    #lib_sidebar>div:hover>h2{
+        text-decoration: none;
+    }
+    #diet_library>div:hover>h2{
+        text-decoration: none;
+    }
+    #lib_sidebar h2{
+          color:white;
+    }
+   
+}
+@media only screen and (min-width:992px) and (max-width:1100px){
+    #lib_bodyside{
+        width:100%;
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+        border:0px solid red;
+        
+    }
+    #lib_sidebar{
+       width:50%;
+       margin-left:25%;
+        justify-content: center;
+        border:0px solid blue;
+        
+    }
+    #lib_body{
+        width:70%;
+        border:0px solid green;
+        margin-left:15%;
+    }
+    .Planning_Weight{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap:50px;
+        border:0px solid red;
+        
+    }
+}
+
 

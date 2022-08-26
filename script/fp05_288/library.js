@@ -59,6 +59,7 @@ let calorie = () => {
     location.reload()
 }
 let dietlibrary = document.getElementById("diet_library");
+console.log(dietlibrary,"di")
 
 let count = 0;
 
@@ -66,12 +67,13 @@ let diet = () => {
 
     let first = document.getElementById("first");
     count++;
-    if (count % 2 != 0) {
+    if (count % 2 !==0) {
         dietlibrary.innerHTML = null;
         dietlibrary.append(first);
-    } else {
-        location.reload();
-        
+    } else { 
+        location.reload()
+         
     }
 
 }
+
