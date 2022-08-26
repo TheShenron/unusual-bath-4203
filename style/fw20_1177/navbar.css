@@ -122,6 +122,34 @@ img{
     width: 45%;
     /* height: 100%; */
     font-size: 20px;
+    background-color: orange;
+    color: white;
     
 }
+#signup:hover,#signin:hover{
+
+    background-color: rgb(245, 179, 56);
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {} 
+
+
+@media only screen and (max-width: 768px) {
+
+
+
+
+    
+} 
+
+
+
+
+@media only screen and (min-width: 992px) and (max-width: 1100px) {}
 
