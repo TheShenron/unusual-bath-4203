@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#upper {
+    width: 100%;
+    height: 1000px;
+    border: 2px solid red;
+
+}
+
+.first {
+    background-image: url('https://blog-images.pharmeasy.in/2021/01/25180542/shutterstock_1545283778-1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 98%;
+}
+
+h1 {
+    font-size: 110px;
+    margin: 0px 0px 35px;
+    padding-top: 20%;
+    padding-left: 5%;
+    color: #FFFFFF;
+}
+
+.sec {
+    width: 100%;
+    height: 800px;
+    border: 2px solid red;
+    padding-top: 3%;
+}
+
+h3 {
+    text-align: center;
+    font-size: 60px;
+    padding: 3% 0px 55px;
+}
+
+ul {
+    text-align: center;
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+
+}
+
+li:before {
+    content: '✓';
+    font-size: 25px;
+    padding: 3px;
+    color: rgb(9, 176, 9);
+}
+
+
+.btn {
+    text-align: center;
+    border: 0px solid red;
+    width: 500px;
+    height: 60px;
+    padding-top: 40px;
+    margin: auto;
+    
+}
+
+#first {
+    width: 350px;
+    height: 80px;
+    border-radius: 50px;
+    border: none;
+    border-color: rgba(151, 245, 10, 0.942);
+    font-size: 24px;
+}
+
+.third {
+    width: 100%;
+    height: 700px;
+    border: 2px solid green;
+    display: flex;
+    margin: auto;
+}
+
+.track {
+    width: 30%;
+    height: 680px;
+    border: 2px solid yellow;
+    margin: auto;
+    margin-bottom: 5%;
+}
+
+/* .mid {
+    width: 10%;
+    height: 100px;
+    border: 2px solid yellow;
+    display: flex;
+    margin: auto;
+} */
+
+.four {
+   width: 100%;
+   height: 500px;
+   display: flex;
+   border: 2px solid navy;
+   gap: 25px;
+}
+
+
