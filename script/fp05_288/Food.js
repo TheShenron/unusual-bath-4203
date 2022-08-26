@@ -18,23 +18,31 @@ let database=[
         image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmJJxBjfl0CP6HNkuOTd4N3NIV9Ni1b6FOzA&usqp=CAU",
         location:"Bangalore",
         calorie:"270cal",
+    },
+    {
+        name:"Biryani",
+        image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoZBbyTGbk3hGmvB156J0uOuzlxXhZZSihmQ&usqp=CAU",
+        location:"Gujarat",
+        calorie:"350cal",
     }
 ]
 localStorage.setItem("database",JSON.stringify(database));
 
 let get=()=>{
     let container=document.getElementById("append");
-    let inp=document.getElementById("nosubmit").value;
+    let inp1=document.getElementById("nosubmit").value;
+   let inp=inp1.toLowerCase();
     container.innerHTML=null;
     console.log(inp,"inp")
     let data=JSON.parse(localStorage.getItem("database"));
     console.log(data,"data");
+    let count=0;
     
     data.forEach(({name,location,image,calorie})=>{
         console.log("ele",name,location,image,calorie)
         
-        
-        if(name.includes(inp) && inp!==""){
+        let name4=name.toLowerCase();
+        if(name4.includes(inp) && inp!==""){
             console.log("yes")
             let div=document.createElement("div");
             let img=document.createElement("img");
@@ -47,19 +55,23 @@ let get=()=>{
             cal.innerText=calorie;
             div.append(img,name1,loc,cal);
             container.append(div);
+            count++;
         }else if(inp==""){
             container.innerHTML=null;
         }
-        else{
+        
+        
+    })
+    if(count==0 && inp!=""){
+        
             container.innerHTML=null;
             let div1=document.createElement("div");
             let h4=document.createElement("h3");
             h4.innerText="No foods found. Try varying search words";
             container.append(h4);
             
-        }
         
-    })
+    }
 }
 
 let deb=(get,delay)=>{
