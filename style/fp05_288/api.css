@@ -10,17 +10,17 @@
 #container{
     width:100%;
     height:auto;
-    border:1px solid green;
+    border:0px solid green;
     display:flex;
     justify-content: space-between;
 }
 #leftside{
     width:25%;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    border:1px solid blue;
+    border:0px solid blue;
 }
 #food{
-    border:1px solid green;
+    border:0px solid green;
     font-family: Rubik,Helvetica,Arial,sans-serif;
     color: #268fd0;
     padding:15px 0 15px 10px;
@@ -32,7 +32,7 @@
     color:#46618a;
 }
 #api{
-    border:1px solid green;
+    border:0px solid green;
     font-family: Rubik,Helvetica,Arial,sans-serif;
     color: #268fd0;
     padding:15px 0 15px 10px;
@@ -46,7 +46,7 @@
 #rightside{
     width:70%;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    border:1px solid red;
+    border:0px solid red;
     
 }
 
@@ -102,7 +102,7 @@ padding:3px 0 3px 0;
 #incont{
     
     
-    border:1px solid pink;
+    border:0px solid pink;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     padding-left:25px;
 
@@ -120,17 +120,17 @@ padding:3px 0 3px 0;
     #container{
         width:100%;
         height:auto;
-        border:1px solid green;
+        border:0px solid green;
         display:flex;
         justify-content: space-between;
     }
     #leftside{
         width:0%;
         box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-        border:1px solid blue;
+        border:0px solid blue;
     }
     #food{
-        border:1px solid green;
+        border:0px solid green;
         font-family: Rubik,Helvetica,Arial,sans-serif;
         color:white;
         height:0px;
@@ -142,7 +142,7 @@ padding:3px 0 3px 0;
         color:white;
     }
     #api{
-        border:1px solid green;
+        border:0px solid green;
         font-family: Rubik,Helvetica,Arial,sans-serif;
         color: white;
         height:0px;
@@ -156,7 +156,7 @@ padding:3px 0 3px 0;
     #rightside{
         width:100%;
         box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-        border:1px solid red;
+        border:0px solid red;
     }
     
     #table{

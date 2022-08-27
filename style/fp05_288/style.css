@@ -14,19 +14,19 @@
     width:100%;
     height:auto;
     display:flex;
-    border:1px solid red;
+    border:0px solid red;
     justify-content: space-between;
 }
 /* only sidebar  */
 #lib_sidebar{
     width:25%;
-    border:1px solid blue;
+    border:0px solid blue;
     
 }
 /* only body */
 #lib_body{
  width:70%;
- border:1px solid green;
+ border:0px solid green;
  
 }
 /* body related css */
@@ -50,7 +50,7 @@
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap:50px;
-    border:1px solid greenyellow;
+    border:0px solid greenyellow;
     
 }
 #lib_body>div>div{
@@ -134,7 +134,7 @@
 #diet_library{
     display:grid;
     grid-template-columns: repeat(1,1fr);
-    border:1px solid blue;
+    border:0px solid blue;
 }
 #diet_library>div~div{
     border:0px solid red;
@@ -156,7 +156,7 @@
 #lib_sidebar>div{
     border-bottom:dashed;
     border-width: 2px;
-    border-color:#46618a;
+    border-color:white;
     color: #268fd0;
     
     padding:20px 0px 20px 10px;
@@ -218,7 +218,7 @@
     }
     #lib_body{
         width:100%;
-        border:1px solid green;
+        border:0px solid green;
         
        }
        #diet_library img{
@@ -270,7 +270,7 @@
     }
     #lib_body{
         width:100%;
-        border:1px solid green;
+        border:0px solid green;
         
        }
        #diet_library img{

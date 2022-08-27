@@ -9,17 +9,17 @@
 #container{
     width:100%;
     height:auto;
-    border:1px solid green;
+    border:0px solid green;
     display:flex;
     justify-content: space-between;
 }
 #leftside{
     width:25%;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    border:1px solid blue;
+    border:0px solid blue;
 }
 #food{
-    border:1px solid green;
+    border:0px solid green;
     font-family: Rubik,Helvetica,Arial,sans-serif;
     color: #268fd0;
     padding:15px 0 15px 10px;
@@ -31,7 +31,7 @@
     color:#46618a;
 }
 #api{
-    border:1px solid green;
+    border:0px solid green;
     font-family: Rubik,Helvetica,Arial,sans-serif;
     color: #268fd0;
     padding:15px 0 15px 10px;
@@ -45,7 +45,7 @@
 #rightside{
     width:70%;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-    border:1px solid red;
+    border:0px solid red;
     
 }
 #first_h4{
@@ -70,7 +70,7 @@
     text-decoration: none;
 }
 input#nosubmit {
-    border: 1px solid green;
+    border: 0px solid green;
     width: 90%;
     border-radius: 5px;
     font-style: italic;
@@ -80,7 +80,7 @@ input#nosubmit {
      background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 13px center;
   }
   #append{
-      border:1px solid green;
+      border:0px solid green;
       display:grid;
       grid-template-columns: repeat(1,1fr);
       gap:20px;
@@ -88,7 +88,7 @@ input#nosubmit {
   #append>div{
        display:flex;
        justify-content: space-around;
-       border:1px solid greenyellow;
+       border:0px solid greenyellow;
        align-items: center;
        background-color: grey;
         color:#46618a;
@@ -105,17 +105,17 @@ input#nosubmit {
     #container{
         width:100%;
         height:auto;
-        border:1px solid green;
+        border:0px solid green;
         display:flex;
         justify-content: space-between;
     }
     #leftside{
         width:0%;
         box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-        border:1px solid blue;
+        border:0px solid blue;
     }
     #food{
-        border:1px solid green;
+        border:0px solid green;
         font-family: Rubik,Helvetica,Arial,sans-serif;
         color:white;
         height:0px;
@@ -127,7 +127,7 @@ input#nosubmit {
         
     }
     #api{
-        border:1px solid green;
+        border:0px solid green;
         font-family: Rubik,Helvetica,Arial,sans-serif;
         color: white;
         height:0;
@@ -141,7 +141,7 @@ input#nosubmit {
     #rightside{
         width:100%;
         box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-        border:1px solid red;
+        border:0px solid red;
         
     }
     #first_h4{
@@ -171,17 +171,17 @@ input#nosubmit {
     #container{
         width:100%;
         height:auto;
-        border:1px solid green;
+        border:0px solid green;
         display:flex;
         justify-content: space-between;
     }
     #leftside{
         width:0%;
         box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-        border:1px solid blue;
+        border:0px solid blue;
     }
     #food{
-        border:1px solid green;
+        border:0px solid green;
         font-family: Rubik,Helvetica,Arial,sans-serif;
         color:white;
         height:0px;
@@ -193,7 +193,7 @@ input#nosubmit {
         
     }
     #api{
-        border:1px solid green;
+        border:0px solid green;
         font-family: Rubik,Helvetica,Arial,sans-serif;
         color: white;
         height:0;
@@ -207,7 +207,7 @@ input#nosubmit {
     #rightside{
         width:100%;
         box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-        border:1px solid red;
+        border:0px solid red;
         
     }
   }
