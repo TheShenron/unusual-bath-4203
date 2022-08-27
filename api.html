@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/fp05_288/api.css">
+</head>
+<body>
+    <!-- nav bar section -->
+    <div id="navbar">
+
+    </div>
+    <!-- food body section -->
+    <div id="container">
+        <div id="leftside">
+            <div id="food" onclick="foodie()">
+                <h2>Food Search</h2>
+            </div>
+            <div id="api" onclick="apifunn()">
+                <h2>Database Licensing & API</h2>
+                
+            </div>
+            <div id="table">
+                <h3>Table of Contents</h3>
+                <ul>
+                    <li onclick="overview_left()">Overview</li>
+                    <li onclick="license_left()">Licensing</li>
+                    <li onclick="food_ap()">API</li>
+                    <li onclick="research_left()">Research Process</li>
+                    <li onclick="specification_left()">Specification</li>
+                    <li onclick="contacts_left()">Contacts</li>
+                </ul>
+               
+            </div>
+           
+        </div>
+        <div id="rightside">
+            <div id="overview">
+                 <h1>The Best Commercial Food Database and API</h1>
+                 <h3>MyNetDiary food catalog is the most complete, accurate and up-to-date nutrition database in the English-speaking world. We use our food catalog for high-quality calorie counting and nutrition analysis delivered to the millions of our diet app users. As MyNetDiary provides a comprehensive diet service, we know how inaccurate food labels undermine the whole idea of diet tracking, analysis and planning. Many years of rigorous food research resulted in a powerful data product you can license for your applications and online services today:</h3>
+                 <ul>
+                     <li><h3>1,215,000 foods in the United States, Canada, United Kingdom and Australia. Verified foods only.</h3>
+                    </li>
+                    <li><h3>2,142 restaurants among 3,180 vendors including well-known brands, restaurants, fast food chains, supermarkets, special diets, ethnic foods and common USDA foods.</h3></li>
+                    <li><h3>713,000 UPC barcodes assigned to majority of popular packaged foods.</li>
+                    <li><h3>Food popularity rank based on food logging by milliions of MyNetDiary users. We know what people actually eat.</h3></li>
+                    <li><h3>Up to 50 nutrients per food, on average 15 nutrients per food.</h3></li>
+                    <li><h3>Up to 10 servings per food. We fight duplicates and normalize the data.</h3></li>
+                    <Li><h3>Food icons for most foods help you create beautiful, readable food lists.</h3></Li>
+                 </ul>
+                 
+            </div>
+            <div id="licensing">
+                <h1>Licensing Food Database and Using API</h1>
+                <h3>You can license MyNetDiary food database for commercial and research purposes. The license does not allow reselling the data.</h3>
+                <h3>We offer food database license for $40,000 USD without time limitations. The license includes 3 quarterly updates and API access during the first year of licensing. After that, you can keep using the database indefinitely without further updates.</h3>
+                <h3>Starting with the second year, you can choose to purchase further updates and continued API access for $8,000 USD per year.</h3>
+                <img src="https://s3.amazonaws.com/img.mynetdiary.com/how_db_licensing_works2.png">
+            </div>
+            <div id="food_api">
+                <h1>Food Search API</h1>
+                <h3>Some of our licensing customers start with using API, which makes a lot of sense:</h3>
+                <ul>
+                    <li><h3>Deliver your application faster by reusing our search algorithms and servers. Build a quick proof-of-concept, lower initial investment and reduce your app's time-to-market.</h3></li>
+                    <li><h3><span>Our smart and fast API </span>searches by multiple words in any order, partial words, food synonyms, abbreviations and phonetic similarity. Brand names and food categories are searched along with food names. Search results highlight matched user inputs. UPC lookup is included.</h3></li>
+                    <li><h3>Search results are ranked by popularity among millions of diet app users. Unlike other DB providers, we actually know what people eat and suggest the most relevant foods.</h3></li>
+                    <li><h3>All food updates are immediately available to your application. We add and verify about 300 foods every day.</h3></li>
+                    <li><h3>Obtain complete food catalog and switch to your own search at any time.</h3></li>
+                    <li><h3>Service uptime is 99.9% or better.</h3></li>
+                    <li><h3>Server response in < 200 ms plus network.</h3></li>
+                </ul>
+
+            </div>
+            <div id="research">
+                <h1>A Look Under The Hood: Nutrition Research Process</h1>
+                <h3>Check out the MyNetDiary <span>research system</span> and see how much attention we give to completeness and correctness of the data, and how many data rules are implemented by our research team. We automate data validation as much as possible, but it still takes a human to ensure quality. Every change is double-checked by our quality assurance team.</h3>
+                <h3>Keeping the catalog up-to-date is challenging since the food industry is a dynamic, ever-changing world: food vendors sell and buy brands, change their name while growing the business, change servings and clarify their nutrition labels over time. We meet these challenge with continuous monitoring and periodic, prioritized verification of such vendors and brands.</h3>
+                <h3><span>PhotoFood</span> requests are processed within 24 hours or faster. We publish thousands of food updates every day while removing obsolete or duplicated foods. It's a live catalog.</h3>
+                <h3>It is hard to avoid duplication because of re-packaging and re-branding of the same products and their slight variations. We remove any duplicates within 24 hours after noticing.</h3>
+                <h3>We work with restaurants and food companies to add and update their menus and products in our food database. If you represent a restaurant or a food company, please email <span>info@mynetdiary.com</span> to get your products included.</h3>
+                <h3>Other data sources include the USDA Standard Reference database and data from literature sources.</h3>
+            </div>
+            <div id="specification">
+                <h1>Specifications and Samples</h1>
+                 <h3>Enjoy our <span>Instant Food Search</span>, find any food and experience the API. Scan barcodes with our <span>free mobile apps</span>.
+
+                    Download <span>Data and API Specification</span> for details or simply check our <span>Food Samples</span>.</h3>
+            </div>
+            <div id="contact">
+                <h1>Contacts:</h1>
+                <div id="incont">
+                    <h3>MyNetDiary Inc.</h3>
+                    <h3>10000 Lincoln Drive East, Suite 201</h3>
+                    <h3>Marlton, NJ 08053-3105</h3>
+                    <h3><span>info@mynetdiary.com</span></h3>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+    
+</body>
+</html>
+<script src="script/fp05_288/api.js"></script>

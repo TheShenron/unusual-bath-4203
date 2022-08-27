@@ -1,0 +1,303 @@
+
+/* library body css */
+/* both body and sidebar */
+
+#lib_bodyside{
+    width:100%;
+    height:auto;
+    display:flex;
+    border:1px solid red;
+    justify-content: space-between;
+}
+/* only sidebar  */
+#lib_sidebar{
+    width:25%;
+    border:1px solid blue;
+    
+}
+/* only body */
+#lib_body{
+ width:70%;
+ border:1px solid green;
+ 
+}
+/* body related css */
+
+#lib_body>p{
+      font-size: 20px;
+     line-height:30px; 
+     font-family:Rubik,Helvetica,Arial,sans-serif ;
+     color:#46618a;
+}
+#lib_body>h1{
+    font-size:50px;
+    font-family: Rubik,Helvetica,Arial,sans-serif;
+    color: #268fd0;
+    font-weight: 500;
+}
+.Planning_Weight{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:50px;
+    border:1px solid greenyellow;
+    
+}
+#lib_body>div>div{
+    padding-bottom: 20px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius:5%;
+    overflow: hidden;  
+    
+} 
+#lib_body>div>div>h3{
+    border:0px solid red;
+    width:90%;
+    margin:auto;
+    margin-top:20px;
+    font-family: Rubik,Helvetica,Arial,sans-serif;
+    color:#46618a;
+    background-color: transparent;
+    font-size:28px;
+
+}
+#lib_body>div>div:hover>h3{
+    text-decoration: underline;
+}
+
+  #lib_body>div>div>h3+p{
+    border:0px solid green;
+    width:90%;
+    margin:auto;
+    color:#c6d2e4;
+}  
+#lib_body>div>div>p+p{
+    border:0px solid red;
+    width:90%;
+    margin:auto;
+    margin-top:10px;
+    line-height: 30px;
+    color:#46618a;
+    font-family: Rubik,Helvetica,Arial,sans-serif ;
+    font-size:18px;
+    overflow-wrap: break-word;
+    font-weight: 500;
+
+}
+.Planning_Weight img{
+    width:100%;
+}
+
+
+/* Diabetic articles css */
+#iphone,#android{
+    color:greenyellow;
+
+}
+#disclaimer{
+    
+    display:flex;
+    margin:auto;
+    padding:25px;
+    align-items: center;
+    margin-top:40px;
+    border-style: dashed;
+    border-color: yellowgreen;
+    border-width: 2px;
+    border-radius: 10px;
+}
+#disclaimer>p{
+    margin-left:20px;
+    font-size: 18px;
+    font-family: Rubik,Helvetica,Arial,sans-serif;
+    color:#46618a;
+    line-height: 25px;
+}
+#disc{
+    font-weight: 600;
+}
+
+/* Side bar css below */
+#diet_library{
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+    border:1px solid blue;
+}
+#diet_library>div{
+    border:1px solid red;
+    display:flex;
+    margin:auto;
+    width:100%;
+    align-items: center;
+    color:#46618a;
+}
+#diet_library img{
+    width:20%;
+    margin-right:10px;
+    height:80%;
+}
+#lib_sidebar>div{
+    border-bottom:dashed;
+    border-width: 2px;
+    border-color:#46618a;
+    color: #268fd0;
+}
+#lib_sidebar>div:hover>h2{
+    text-decoration: underline;
+}
+#diet_library>div:hover>h2{
+    text-decoration: underline;
+}
+
+
+/* media query */
+@media only screen and (max-width:600px){
+    #lib_body>div>div>h3{
+        border:0px solid red;
+        width:90%;
+        margin:auto;
+        margin-top:20px;
+        font-family: Rubik,Helvetica,Arial,sans-serif;
+        color:#46618a;
+        background-color: transparent;
+        font-size:22px;
+    
+    }
+    
+    #lib_body>p{
+        font-size: 20px;
+       line-height:30px; 
+       font-family: Cabin Condensed;
+       color:#46618a;
+  }
+  #lib_body>h1{
+      font-size:30px;
+      font-family: Rubik,Helvetica,Arial,sans-serif;
+      color: #268fd0;
+      font-weight: 600;
+  }
+    .Planning_Weight{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap:50px;
+        border:0px solid red;
+        
+    }
+    #lib_sidebar{
+        width:0%;
+        border:0px solid red;
+        
+    }
+    #diet_library>div{
+        border:0px solid red;
+        display:flex;
+        margin:auto;
+        width:0%;
+        align-items: center;
+        color:#46618a;
+    }
+    #lib_body{
+        width:100%;
+        border:1px solid green;
+        
+       }
+       #diet_library img{
+        width:0;
+        margin-right:10px;
+        height:0;
+    }
+    #lib_sidebar>div{
+        border-bottom:dashed;
+        border-width: 0px;
+        border-color:#46618a;
+        color: #268fd0;
+    }
+    #lib_sidebar>div:hover>h2{
+        text-decoration: none;
+    }
+    #diet_library>div:hover>h2{
+        text-decoration: none;
+    }
+    #lib_sidebar h2{
+          color:white;
+    }
+    
+    
+}
+@media only screen and (min-width:601px) and (max-width:768px){
+    .Planning_Weight{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap:50px;
+        border:0px solid red;
+        
+    }
+    #lib_sidebar{
+        width:0%;
+        border:0px solid red;
+        
+    }
+    #diet_library>div{
+        border:0px solid red;
+        display:flex;
+        margin:auto;
+        width:0%;
+        align-items: center;
+        color:#46618a;
+    }
+    #lib_body{
+        width:100%;
+        border:1px solid green;
+        
+       }
+       #diet_library img{
+        width:0;
+        margin-right:10px;
+        height:0;
+    }
+    #lib_sidebar>div{
+        border-bottom:dashed;
+        border-width: 0px;
+        border-color:#46618a;
+        color: #268fd0;
+    }
+    #lib_sidebar>div:hover>h2{
+        text-decoration: none;
+    }
+    #diet_library>div:hover>h2{
+        text-decoration: none;
+    }
+    #lib_sidebar h2{
+          color:white;
+    }
+   
+}
+@media only screen and (min-width:992px) and (max-width:1100px){
+    #lib_bodyside{
+        width:100%;
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+        border:0px solid red;
+        
+    }
+    #lib_sidebar{
+       width:50%;
+       margin-left:25%;
+        justify-content: center;
+        border:0px solid blue;
+        
+    }
+    #lib_body{
+        width:70%;
+        border:0px solid green;
+        margin-left:15%;
+    }
+    .Planning_Weight{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap:50px;
+        border:0px solid red;
+        
+    }
+}
+
+
