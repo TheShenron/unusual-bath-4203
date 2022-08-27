@@ -248,7 +248,7 @@
         height:0;
     }
     #lib_sidebar>div{
-        border-bottom:dashed;
+        
         border-width: 0px;
         border-color:#46618a;
         color: #268fd0;
@@ -265,6 +265,20 @@
     #lastpara{
         padding-bottom:15px;
     }
+    #diet_library>div~div{
+    
+      border-top-style: none;
+      border-top-width: 0.2px;
+      border-color: red;
+      display:flex;
+      margin:auto;
+      width:100%;
+      align-items: center;
+      color:#46618a;
+      padding-left: 2px;
+      margin-left:-10px;
+      
+  }
     
     
 }
@@ -289,6 +303,21 @@
         align-items: center;
         color:#46618a;
     }
+    #diet_library>div~div{
+    
+      border-top-style: none;
+      border-top-width: 0.2px;
+      border-color: red;
+      display:flex;
+      margin:auto;
+      width:100%;
+      align-items: center;
+      color:#46618a;
+      padding-left: 2px;
+      margin-left:-10px;
+      
+  }
+    
     #lib_body{
         width:100%;
         border:0px solid green;
@@ -300,7 +329,7 @@
         height:0;
     }
     #lib_sidebar>div{
-        border-bottom:dashed;
+        
         border-width: 0px;
         border-color:#46618a;
         color: #268fd0;
@@ -332,6 +361,20 @@
         border:0px solid blue;
         
     }
+    #diet_library>div~div{
+    
+      border-top-style: none;
+      border-top-width: 0.2px;
+      border-color: red;
+      display:flex;
+      margin:auto;
+      width:100%;
+      align-items: center;
+      color:#46618a;
+      padding-left: 2px;
+      margin-left:-10px;
+      
+  }
     #lib_body{
         width:70%;
         border:0px solid green;

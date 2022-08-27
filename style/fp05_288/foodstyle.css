@@ -19,7 +19,7 @@
     border:0px solid blue;
 }
 #food{
-    border:0px solid green;
+   
     font-family: Rubik,Helvetica,Arial,sans-serif;
     color: #268fd0;
     padding:15px 0 15px 10px;
@@ -31,7 +31,7 @@
     color:#46618a;
 }
 #api{
-    border:0px solid green;
+    
     font-family: Rubik,Helvetica,Arial,sans-serif;
     color: #268fd0;
     padding:15px 0 15px 10px;
@@ -70,7 +70,7 @@
     text-decoration: none;
 }
 input#nosubmit {
-    border: 0px solid green;
+    border: 1px solid green;
     width: 90%;
     border-radius: 5px;
     font-style: italic;
@@ -115,7 +115,7 @@ input#nosubmit {
         border:0px solid blue;
     }
     #food{
-        border:0px solid green;
+        
         font-family: Rubik,Helvetica,Arial,sans-serif;
         color:white;
         height:0px;
@@ -127,7 +127,7 @@ input#nosubmit {
         
     }
     #api{
-        border:0px solid green;
+        
         font-family: Rubik,Helvetica,Arial,sans-serif;
         color: white;
         height:0;
@@ -141,8 +141,9 @@ input#nosubmit {
     #rightside{
         width:100%;
         box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-        border:0px solid red;
         
+        margin:auto;
+        display:flex;
     }
     #first_h4{
         padding:0px 0px 0 0px;
@@ -165,6 +166,16 @@ input#nosubmit {
     #one:hover,#two:hover,#three:hover,#four:hover{
         text-decoration: none;
     }
+    input#nosubmit {
+        border: 1px solid green;
+        width: 90%;
+        border-radius: 5px;
+        font-style: italic;
+        margin:0px 40px 0px 40px;
+        
+        font-size: 18px;
+         background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 13px center;
+      }
   }
 
   @media only screen and (min-width:601px) and (max-width:768px){
@@ -181,7 +192,7 @@ input#nosubmit {
         border:0px solid blue;
     }
     #food{
-        border:0px solid green;
+      
         font-family: Rubik,Helvetica,Arial,sans-serif;
         color:white;
         height:0px;
@@ -193,7 +204,7 @@ input#nosubmit {
         
     }
     #api{
-        border:0px solid green;
+        
         font-family: Rubik,Helvetica,Arial,sans-serif;
         color: white;
         height:0;
@@ -207,7 +218,8 @@ input#nosubmit {
     #rightside{
         width:100%;
         box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-        border:0px solid red;
+        
         
     }
+    
   }
