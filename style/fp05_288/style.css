@@ -134,16 +134,21 @@
 #diet_library{
     display:grid;
     grid-template-columns: repeat(1,1fr);
-    border:0px solid blue;
+    
 }
 #diet_library>div~div{
-    border:0px solid red;
+    
+    border-top-style: dashed;
+    border-top-width: 0.2px;
+    border-color: #46618a;
     display:flex;
     margin:auto;
     width:100%;
     align-items: center;
     color:#46618a;
     padding-left: 2px;
+    margin-left:-10px;
+    
 }
 #diet_library>div:first-child{
     padding-bottom: 10px;
@@ -153,19 +158,35 @@
     margin-right:10px;
     height:80%;
 }
+
 #lib_sidebar>div{
     border-bottom:dashed;
     border-width: 2px;
-    border-color:white;
+    border-bottom-color:#46618a;
+    margin-left:15px;
     color: #268fd0;
-    
     padding:20px 0px 20px 10px;
 }
+
 #lib_sidebar>div:hover>h2{
     text-decoration: underline;
 }
 #diet_library>div:hover>h2{
     text-decoration: underline;
+}
+#first{
+  margin-top:-20px;
+  padding-top:10px;
+  margin-left:-10px;
+  
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+#top_header{
+  font-size:50px;
+    font-family: Rubik,Helvetica,Arial,sans-serif;
+    color: #268fd0;
+    font-weight: 500;
+    
 }
 
 
@@ -331,6 +352,7 @@
 
 
     .Bpage_lastsection{
+      
       display: flex;
       flex-direction: column;
       padding: 50px 20px 0 20px;
@@ -497,6 +519,10 @@
       padding-top:40px ;
       text-align: center;
     }
+  }
+
+  .Bpage_lastsection{
+    margin-top:100px;
   }
 
 

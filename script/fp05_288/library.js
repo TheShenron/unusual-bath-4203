@@ -4,6 +4,7 @@ let carb_diet = () => {
     let top_header = document.getElementById("top_header");
     console.log(top_header, "Hi");
     let top_body = document.getElementsByClassName("top_body");
+    top_header.style.padding="10px";
     console.log(top_body);
     console.log(top_body[0], "Hiiii")
     console.log(top_body[0].children)
@@ -76,4 +77,6 @@ let diet = () => {
     }
 
 }
+
+
 
