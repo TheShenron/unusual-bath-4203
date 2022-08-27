@@ -1,4 +1,9 @@
 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
 
 
@@ -18,7 +23,7 @@
     border:1px solid green;
     font-family: Rubik,Helvetica,Arial,sans-serif;
     color: #268fd0;
-    height:80px;
+    padding:15px 0 15px 10px;
     border-bottom: dashed;
     border-width:1px;
 }
@@ -30,7 +35,7 @@
     border:1px solid green;
     font-family: Rubik,Helvetica,Arial,sans-serif;
     color: #268fd0;
-    height:80px;
+    padding:15px 0 15px 10px;
     border-bottom: dashed;
     border-width:1px;
 }
@@ -49,9 +54,14 @@
     color:#46618a;
     font-size: 18px;
     font-family: Rubik,Helvetica,Arial,sans-serif;
+    margin-top:25px;
+    padding-left: 10px;
+}
+#table>ul{
+    padding-left:30px;
 }
 #table>ul>li{
-    margin-bottom:10px;
+    padding:10px 0 10px 0;
 }
 #overview>h1:first-child{
     margin-top:0px;
@@ -59,23 +69,27 @@
 #rightside{
     color: #46618a;
 }
-
+#rightside>div:first-child>h1{
+    padding:0px 0 15px 0;
+}
 #rightside h1{
-    
-    
     font-size: 50px;
+    padding: 10px 0 10px 0;
 }
 #rightside h3{
    
     line-height: 28px;
-
+    padding-bottom:15px;
 }
+
 #rightside>div>ul>li>h3{
-line-height: 22px;
+line-height: 24px;
+padding:3px 0 3px 0;
 
 }
-#rightside>div>ul>li~li{
-    margin-top:-10px;
+#rightside>div>ul{
+    padding-left:40px;
+    
 }
 
 #rightside span{
@@ -86,7 +100,7 @@ line-height: 22px;
     text-decoration: none;
 }
 #incont{
-    margin-top:-20px;
+    
     
     border:1px solid pink;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
@@ -143,7 +157,6 @@ line-height: 22px;
         width:100%;
         box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
         border:1px solid red;
-        
     }
     
     #table{
@@ -153,5 +166,8 @@ line-height: 22px;
     }
     #table>ul>li{
         margin-bottom:0px;
+    }
+    img{
+        width:100%;
     }
 }
