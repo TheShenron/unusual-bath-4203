@@ -1,3 +1,121 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+#ipad{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    color: #5bc0ff;
+
+}
+.con{
+    margin:auto;
+    width: 100;
+    height:100vh;
+    text-align: center;
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.swiper{
+    border: 25px solid black;
+    border-radius: 5%;
+    width:40%;
+    height:fit-content;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper-slide img{
+    width:100%;
+    height:min-content;
+    
+
+}
+.swiper-button-prev{
+    margin-right: 50pxS;
+}
+
+
+#blocks{
+    display: flex;
+    align-items: center;
+    gap:80px;
+    margin:auto;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+#blocks>div{
+    height: 250px;
+    width:250px;
+   background-color:rgb(255, 250, 205);
+   align-items: center;
+   border-radius: 10px;
+   box-shadow: #eaeaea;
+   
+}
+#blocks>div,img,h3{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+#blocks>div:hover {
+    background-color: rgb(245, 222, 179)
+  }
+
+
+#videosection{
+    width:100%;
+    
+    height:1000px;
+    background-color: #f6a832;
+    border-bottom-right-radius:100rem 5rem;
+    border-bottom-left-radius:100rem 5rem;
+
+
+}
+#vid{
+    margin-top: 40px;
+    margin-left:40px;
+    border: 10px solid white;
+    border-radius: 3%;
+}
+#videoimages{
+    display: flex;
+    margin:auto;
+    gap:180px;
+    margin-top: 40px;
+    margin-left:40px;
+
+}
+#img{
+    display:flex;
+    margin-top: 40px;
+    margin-left:90px;
+    gap: 10px;
+
+}
+#im{
+    background-color: #05963d;
+    height: 90px;
+    width:130px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+#im img{
+    padding-left: 10px;
+}
+#text{
+    color:white;
+}
+
+
+
 #mid-part{
     width: 100%;
     display: flex;
@@ -29,7 +147,9 @@ font-size:30px;
 
 
 
-.upper-part{position:relative;
+.upper-part{
+    width:100%;
+    position:relative;
     overflow:hidden;
     margin-top:-14rem;
     font-size:2.6rem;
@@ -66,8 +186,8 @@ font-size:30px;
     left:-5rem;
     right:-5rem;
     height:80%;
-    background:#447a14;;
-    background-color:#05963d 
+    background:#447a14;
+    background:#05963d 
 
     radial-gradient(ellipse at top,#24bf62 0,#05963d 60%);
     overflow:hidden;
@@ -745,3 +865,182 @@ font-size:30px;
                             /* .h3, h3 {
                                 font-size: 6rem;
                             } */
+
+
+
+                            /* section-watch-features */
+
+
+                            /* section-more */
+
+
+                            .section-more{padding-top:3.47%;
+                                padding-bottom:6rem;
+                                background-color:#fafafa
+                            }
+                            
+            @media only screen and (max-width:1280px){
+                .section-more{padding-bottom:14%}}
+                
+        .section-more ._headline,.section-more .section-toprated ._features .__item .__heading{
+            margin-bottom:5.56%}
+            .section-more ._tiles{display:-webkit-flex;
+                display:flex;
+                -webkit-justify-content:space-between;
+                justify-content:space-between;
+                -webkit-flex-wrap:wrap;
+                flex-wrap:wrap}
+                
+                @media only screen and (max-width:575px){
+            .section-more ._tiles{
+                -webkit-flex-direction:column;
+                flex-direction:column}}
+                .section-more ._tiles .__item-wrapper{width:36.11%}
+                @media only screen and (max-width:767px){
+                    .section-more ._tiles .__item-wrapper{width:43%}}
+                    
+                    @media only screen and (max-width:575px){
+                 .section-more ._tiles .__item-wrapper{
+                     min-width:100%}}.section-more ._tiles .__item{
+                 position:relative;
+                 padding:3.47% 4.17%;
+                margin-bottom:2rem;
+                height:48.5rem;
+                cursor:pointer;
+                color:#fff;
+                background-size:cover;
+                background-position:50% 50%;
+                background-repeat:no-repeat;
+                box-shadow:rgba(62,62,62,.21) 0 15px 51px -15px;
+                transition:all .15s ease-in-out 0s}
+
+
+                @media only screen and (max-width:1366px){
+                    .section-more ._tiles .__item{height:45rem}}
+                    @media only screen and (max-width:767px){
+                        .section-more ._tiles .__item{height:40rem}}
+                        @media only screen and (max-width:575px){
+            .section-more ._tiles .__item{min-width:100%;
+                height:35rem;
+                box-shadow:rgba(62,62,62,.61) 0 7px 25px -7px}}
+                .section-more ._tiles .__item:focus,.section-more ._tiles .__item:hover{box-shadow:none}
+                .section-more ._tiles .__item .__header{display:-webkit-flex;
+                    display:flex}.section-more ._tiles .__item .__headline{font-family:Rubik,Helvetica,Arial,sans-serif;line-height:1.05}.section-more ._tiles .__item .__headline.h4{margin-bottom:.5rem;font-weight:500;line-height:1.2;letter-spacing:-.04em;font-size:4.8rem;line-height:1.05;font-size:5rem}@media only screen and (max-width:1469px){.section-more ._tiles .__item .__headline.h4{font-size:4.6rem}}@media only screen and (max-width:991px){.section-more ._tiles .__item .__headline.h4{font-size:4.2rem}}@media only screen and (max-width:767px){.section-more ._tiles .__item .__headline.h4{font-size:3.6rem}}@media only screen and (max-width:575px){.section-more ._tiles .__item .__headline.h4{font-size:3.2rem}}@media print{.section-more ._tiles .__item .__headline.h4{font-size:4.2rem}}@media only screen and (max-width:1280px){.section-more ._tiles .__item .__headline.h4{font-size:4.4rem}}@media only screen and (max-width:767px){.section-more ._tiles .__item .__headline.h4{font-size:4rem}}.section-more ._tiles .__item .__headline.h5{margin-bottom:.5rem;font-weight:500;line-height:1.2;letter-spacing:-.04em;font-size:4.2rem;line-height:1.05;font-size:4.4rem}@media only screen and (max-width:1469px){.section-more ._tiles .__item .__headline.h5{font-size:3.8rem}}@media only screen and (max-width:991px){.section-more ._tiles .__item .__headline.h5{font-size:3.4rem}}@media only screen and (max-width:767px){.section-more ._tiles .__item .__headline.h5{font-size:3.2rem}}@media only screen and (max-width:575px){.section-more ._tiles .__item .__headline.h5{font-size:2.6rem}}@media print{.section-more ._tiles .__item .__headline.h5{font-size:3.8rem}}.section-more ._tiles .__ar-grocery{width:62.5%;background-image:url(https://s3.amazonaws.com/img.mynetdiary.com/images/bg-ar-grocery@2x.jpg)}@media only screen and (max-width:1279px){.section-more ._tiles .__ar-grocery{background-position:30% 50%}}@media only screen and (max-width:991px){.section-more ._tiles .__ar-grocery{background-position:25% 50%}}@media only screen and (max-width:767px){.section-more ._tiles .__ar-grocery{width:55%;background-position:20% 50%}}.section-more ._tiles .__ar-grocery .__header{-webkit-flex-direction:column;flex-direction:column}.section-more ._tiles .__ar-grocery .__headline{margin:5rem 0 2rem!important}.section-more ._tiles .__ar-grocery .__icon{width:8.7rem}@media only screen and (max-width:1469px){.section-more ._tiles .__ar-grocery .__icon{width:8.2rem}}@media only screen and (max-width:1280px){.section-more ._tiles .__ar-grocery .__icon{width:7.8rem}}@media only screen and (max-width:767px){.section-more ._tiles .__ar-grocery .__icon{width:6.4rem}}.section-more ._tiles .__imessage{width:36.11%;color:#292929;background-image:url(https://s3.amazonaws.com/img.mynetdiary.com/images/bg-imessage@2x.png);background-position:50% 80%;background-size:70% auto}@media only screen and (max-width:1280px){.section-more ._tiles .__imessage{background-position:50% 90%}}@media only screen and (max-width:767px){.section-more ._tiles .__imessage{width:43%}}.section-more ._tiles .__imessage .__header{-webkit-align-items:flex-start;align-items:flex-start}@media only screen and (max-width:1280px){.section-more ._tiles .__imessage .__header{-webkit-flex-direction:column;flex-direction:column}}@media only screen and (max-width:575px){.section-more ._tiles .__imessage .__header{-webkit-flex-direction:row;flex-direction:row}}.section-more ._tiles .__imessage .__icon{margin-right:3.5rem;width:8.7rem}@media only screen and (max-width:1469px){.section-more ._tiles .__imessage .__icon{width:8.2rem}}@media only screen and (max-width:1280px){.section-more ._tiles .__imessage .__icon{margin:0 0 1.5rem;width:7.8rem}}@media only screen and (max-width:767px){.section-more ._tiles .__imessage .__icon{width:6.4rem}}@media only screen and (max-width:575px){.section-more ._tiles .__imessage .__icon{margin:0 1.5rem 0 0}}.section-more ._tiles .__imessage .__btn-expand{background:rgba(0,0,0,.05) url("data:image/svg+xml,%3csvg viewBox='0 0 21 21' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' fill='rgb(179, 179, 179)' d='M19.500,12.000 L12.000,12.000 L12.000,19.500 C12.000,20.329 11.328,21.000 10.500,21.000 C9.672,21.000 9.000,20.329 9.000,19.500 L9.000,12.000 L1.500,12.000 C0.672,12.000 0.000,11.328 0.000,10.500 C0.000,9.672 0.672,9.000 1.500,9.000 L9.000,9.000 L9.000,1.500 C9.000,0.672 9.672,-0.000 10.500,-0.000 C11.328,-0.000 12.000,0.672 12.000,1.500 L12.000,9.000 L19.500,9.000 C20.328,9.000 21.000,9.672 21.000,10.500 C21.000,11.328 20.328,12.000 19.500,12.000 Z'/%3e%3c/svg%3e") 50% 50% no-repeat;background-size:2.1rem auto}.section-more ._tiles .__siri{width:36.11%;color:#292929;background-image:url(https://s3.amazonaws.com/img.mynetdiary.com/images/bg-siri@2x.jpg)}@media only screen and (max-width:767px){.section-more ._tiles .__siri{width:43%}}.section-more ._tiles .__siri .__header{-webkit-flex-direction:column;flex-direction:column;-webkit-justify-content:flex-end;justify-content:flex-end;height:100%}.section-more ._tiles .__siri .__icon{margin-bottom:1rem;width:8.2rem}@media only screen and (max-width:1469px){.section-more ._tiles .__siri .__icon{width:7.8rem}}@media only screen and (max-width:1280px){.section-more ._tiles .__siri .__icon{width:7.3rem}}@media only screen and (max-width:767px){.section-more ._tiles .__siri .__icon{width:6rem}}.section-more ._tiles .__siri .__btn-expand{background-color:rgba(0,0,0,.2)}.section-more ._tiles .__health{width:62.5%;background-image:url(https://s3.amazonaws.com/img.mynetdiary.com/images/bg-ios-health@2x.jpg)}@media only screen and (max-width:991px){.section-more ._tiles .__health{background-position:40% 50%}}@media only screen and (max-width:767px){.section-more ._tiles .__health{width:55%;background-position:30% 50%}}.section-more ._tiles .__health .__header{-webkit-flex-direction:column;flex-direction:column;-webkit-justify-content:space-between;justify-content:space-between;height:100%}.section-more ._tiles .__health .__icon{width:8.7rem}@media only screen and (max-width:1469px){.section-more ._tiles .__health .__icon{width:8.2rem}}@media only screen and (max-width:1280px){.section-more ._tiles .__health .__icon{width:7.8rem}}@media only screen and (max-width:767px){.section-more ._tiles .__health .__icon{width:6.4rem}}.section-more ._tiles .__gold{width:62.5%;height:71.4rem;background-image:url(https://s3.amazonaws.com/img.mynetdiary.com/images/bg-gold-standard@2x.jpg)}@media only screen and (max-width:767px){.section-more ._tiles .__gold{width:55%}}@media only screen and (max-width:575px){.section-more ._tiles .__gold{height:35rem}}.section-more ._tiles .__coming{padding-top:8.65%;padding-left:7.69%;height:34.7rem;background-image:url(https://s3.amazonaws.com/img.mynetdiary.com/images/bg-coming-soon@2x.jpg)}@media only screen and (max-width:575px){.section-more ._tiles .__coming{padding:3.47% 4.17%;height:35rem}}.section-more ._tiles .__coming .__header{-webkit-flex-direction:column;flex-direction:column}.section-more ._tiles .__coming .__headline{margin-top:1rem}@media only screen and (max-width:991px){.section-more ._tiles .__coming .__headline.h4{font-size:3.6rem}}@media only screen and (max-width:767px){.section-more ._tiles .__coming .__headline.h4{font-size:3.2rem}}.section-more ._tiles .__coming .__icon{margin-bottom:1.5rem;width:14.8rem}@media only screen and (max-width:1469px){.section-more ._tiles .__coming .__icon{width:14.3rem}}@media only screen and (max-width:1280px){.section-more ._tiles .__coming .__icon{width:13.8rem}}@media only screen and (max-width:767px){.section-more ._tiles .__coming .__icon{width:12.4rem}}.section-more ._tiles .__flexibility{padding-top:8.65%;padding-left:7.69%;height:34.7rem;background-image:url(https://s3.amazonaws.com/img.mynetdiary.com/images/bg-flexibility@2x.jpg)}@media only screen and (max-width:575px){.section-more ._tiles .__flexibility{padding:3.47% 4.17%;height:35rem}}.section-more ._tiles .__flexibility .__headline{color:#192840}@media only screen and (max-width:991px){.section-more ._tiles .__flexibility .__headline.h4{font-size:3.6rem}}@media only screen and (max-width:767px){.section-more ._tiles .__flexibility .__headline.h4{font-size:3.2rem}}.section-more ._tiles .__flexibility .__btn-expand{background-color:rgba(0,0,0,.2)}.section-more ._tiles .__btn-expand{
+                                position:absolute;right:2rem;bottom:2rem;width:4.2rem;height:4.2rem;background:rgba(255,255,255,.45) url("data:image/svg+xml,%3csvg viewBox='0 0 21 21' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' fill='rgb(255, 255, 255)' d='M19.500,12.000 L12.000,12.000 L12.000,19.500 C12.000,20.329 11.328,21.000 10.500,21.000 C9.672,21.000 9.000,20.329 9.000,19.500 L9.000,12.000 L1.500,12.000 C0.672,12.000 0.000,11.328 0.000,10.500 C0.000,9.672 0.672,9.000 1.500,9.000 L9.000,9.000 L9.000,1.500 C9.000,0.672 9.672,-0.000 10.500,-0.000 C11.328,-0.000 12.000,0.672 12.000,1.500 L12.000,9.000 L19.500,9.000 C20.328,9.000 21.000,9.672 21.000,10.500 C21.000,11.328 20.328,12.000 19.500,12.000 Z'/%3e%3c/svg%3e") 50% 50% no-repeat;background-size:2.1rem auto;border-radius:50%}@media only screen and (max-width:1280px){.section-more ._tiles .__btn-expand{right:1.5rem;bottom:1.5rem}}@media only screen and (max-width:991px){.section-more ._tiles .__btn-expand{right:.5rem;bottom:.5rem}}.section-more ._stores{text-align:center}.section-more ._stores ._headline,.section-more ._stores .section-toprated ._features .__item .__heading{margin-top:7%;margin-bottom:3%}.section-more ._stores .__btn{max-width:26rem;display:inline-block}@media only screen and (max-width:1469px){.section-more ._stores .__btn{max-width:25rem}}@media only screen and (max-width:1280px){.section-more ._stores .__btn{max-width:20rem}}@media only screen and (max-width:767px){.section-more ._stores .__btn{max-width:15rem}}
+
+                       
+
+  .section-reviews{
+    position:relative;
+    padding-top:16rem;
+    overflow:hidden;
+    background:#fff url(https://s3.amazonaws.com/img.mynetdiary.com/images/pattern-grunge-400x400.jpg) 0 0 repeat}
+    
+    @media only screen and (max-width:767px){
+    .section-reviews{padding-top:13rem}}
+    
+    @media print{.section-reviews{background:0 0}}
+    .section-reviews::before{position:absolute;
+        top:-54rem;
+        left:-5rem;
+        right:-5rem;
+        display:block;
+        width:auto;
+        height:60rem;
+        background:#fafafa;
+        content:'';
+        border-bottom-right-radius:100rem 5rem;
+        border-bottom-left-radius:100rem 5rem;
+        z-index:1000}
+        
+        .reviewbox{position:relative;
+            padding:7rem 6rem 3rem;
+            background:#fff;
+            border:1px solid #eaeaea;
+            border-radius:2rem;
+            box-shadow:0 3px 6px rgba(219,213,208,.78);
+            line-height:1.5}@media only screen and (max-width:1469px){
+                .reviewbox{font-size:2.2rem}}
+                @media only screen and (max-width:1280px){
+                    .reviewbox{padding:7rem 4rem 2rem}}
+
+
+    @media only screen and (max-width:991px){
+        .reviewbox{padding:5rem 3rem 2rem!important;
+            font-size:2rem}}
+        @media only screen and (max-width:575px){
+            .reviewbox{padding-top:4rem!important;
+            padding-bottom:1rem!important;
+            font-size:1.6rem}}
+            .reviewbox::before{position:absolute;
+            content:'';background-position:50% 50%;
+            background-repeat:no-repeat;
+            background-size:100% auto}
+            .reviewbox_theme_green::before{
+                top:-40px;left:-30px;
+                width:142px;height:94px;
+                background-image:url(https://s3.amazonaws.com/img.mynetdiary.com/images/features-quotes-green.png)}
+                @media only screen and (max-width:991px){
+                .reviewbox_theme_green::before{
+                    top:-30px;
+                    left:-24px;
+                    width:102px;
+                    height:68px}}
+                    @media only screen and (max-width:575px){
+                        .reviewbox_theme_green::before{
+                            top:-20px;
+                        width:75px;
+                        height:49px}}
+                        .reviewbox_theme_orange::before{
+                            top:-30px;left:-20px;
+                            width:105px;height:69px;
+                        background-image:url(https://s3.amazonaws.com/img.mynetdiary.com/images/features-quotes-orange.png)}
+                        @media only screen and (max-width:991px){
+                            .reviewbox_theme_orange::before{width:85px;height:56px}}
+                            @media only screen and (max-width:575px){.reviewbox_theme_orange::before{
+                                top:-20px;width:75px;height:49px}}
+                                .reviewbox_theme_blue::before{top:-27px;left:-17px;
+                                    width:95px;height:62px;
+                                    background-image:url(https://s3.amazonaws.com/img.mynetdiary.com/images/features-quotes-blue.png)}
+
+         @media only screen and (max-width:991px){
+            .reviewbox_theme_blue::before{top:-20px;
+                width:75px;
+                height:49px}}.reviewbox_el_1{margin-left:4.17%;
+                    margin-top:9rem;margin-bottom:-13%;
+                    padding-right:9rem;width:58.33%}
+                    @media only screen and (max-width:1280px){
+                        .reviewbox_el_1{padding-right:7rem}}
+                        @media only screen and (max-width:991px){
+                            .reviewbox_el_1{margin:9rem 5% 4rem;width:auto}}
+                @media only screen and (max-width:767px){
+                    .reviewbox_el_1{margin-top:6rem}}
+                    .reviewbox_el_2{margin-left:58.34%;
+                        margin-bottom:-15%;width:37.5%}
+                @media only screen and (max-width:991px){
+                    .reviewbox_el_2{margin:0 5% 4rem;
+                        width:auto}}.reviewbox_el_3{
+                    margin-left:8.34%;padding-bottom:6rem;
+                    margin-bottom:-4%;width:45.83%}
+@media only screen and (max-width:991px){
+    .reviewbox_el_3{margin:0 5% 4rem;width:auto}}
+    .reviewbox_el_4{margin-left:50.17%;margin-bottom:-24%;
+        width:45.83%}@media only screen and (max-width:991px){
+            .reviewbox_el_4{margin:0 5% 4rem;width:auto}}.reviewbox_el_5{margin-left:4.17%;
+                padding-bottom:5rem;margin-bottom:-3rem;width:41.67%}
+
+                @media only screen and (max-width:991px){
+                    .reviewbox_el_5{margin:0 5% 4rem;
+                    width:auto}}.reviewbox_el_6{margin-left:24.17%;margin-bottom:2rem;width:50%}
+                @media only screen and (max-width:991px){.reviewbox_el_6{margin:0 5% 2rem;width:auto}}
+                .reviewbox__nested{position:absolute;left:100%;margin-left:-6rem}
+                .reviewbox_el_1 .reviewbox__nested{top:45%;width:64.29%}
+                @media only screen and (max-width:991px){.reviewbox_el_1 .reviewbox__nested{width:79%}}
+                .reviewbox_el_2 .reviewbox__nested{top:100%;margin-top:-6rem;width:100%}
+                @media only screen and (max-width:1280px){
+                    .reviewbox_el_2 .reviewbox__nested{margin-top:-9rem;width:105%}}
+                    @media only screen and (max-width:991px){
+                        .reviewbox_el_2 .reviewbox__nested{margin-left:2rem}}
+                        .reviewbox_el_3 .reviewbox__nested{top:100%;
+                            left:55%;margin-top:-3rem;
+                            width:120%}
