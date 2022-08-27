@@ -10,7 +10,7 @@ img{
 #navbar{
     display: flex;
     justify-content: space-between;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     padding: 25px;
     height: 59px;
     background-color: white;
@@ -33,7 +33,7 @@ img{
     width: 650px;
     font-size: 20px;
     display: flex;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     justify-content: space-around;
     align-items: center;
     height: 60px;
