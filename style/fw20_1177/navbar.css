@@ -4,8 +4,8 @@
 }
 
 img{
-    width: 57px;
-    border-radius: 50%;
+    width: 250px;
+    /* border-radius: 0%; */
 }
 #navbar{
     display: flex;
@@ -30,10 +30,10 @@ img{
 
 
 #middle{
-    width: 40%;
+    width: 650px;
     font-size: 20px;
     display: flex;
-    /* border: 1px solid red; */
+    border: 1px solid red;
     justify-content: space-around;
     align-items: center;
     height: 60px;
@@ -135,11 +135,6 @@ img{
 
 
 
-
-
-@media only screen and (max-width: 600px) {} 
-
-
 @media only screen and (max-width: 768px) {
 
 
@@ -151,5 +146,5 @@ img{
 
 
 
-@media only screen and (min-width: 992px){}
+
 

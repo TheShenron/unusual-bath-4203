@@ -4,8 +4,7 @@ function Navbar () {
 
     <div id="navbar">
     <div id="left">
-        <img src="https://play-lh.googleusercontent.com/MhvfJAsoEvsESxp9AQg3KOwWyhRRAB1HJWlLCWmLnDucDC6bG81XsmwyVD1zbde1UZM" alt="">
-        MyNetdiary</div>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeLGOGMtwu9Ax9JCPw32gsPA1luTLO7ESNZ6_3phpV&s" alt=""><a href="index.html"></a></div>
 
 
 
