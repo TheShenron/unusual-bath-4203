@@ -1,0 +1,317 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.magin {
+    display: none;
+}
+
+
+.move{
+    transform: translateX(-300px);
+}
+
+.Height { 
+    height: 0;
+   
+}
+
+
+
+#navbar{
+    width:100%;
+    position:fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid blue; */
+    background-color: rgb(255,255,255);
+    font-size: 20px;
+    padding: 10px 15px;
+    /* background-color: gray; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    /* transform: translateX(-300px); */
+    /* transition: all .5s ease-in-out;  */
+    z-index: 1000;
+}
+
+
+#left{
+    width: 200px;
+    /* border: 1px solid red; */
+}
+
+#left > img {
+    width: 100%;
+}
+
+
+
+
+
+
+#middle > ul i {
+    font-size: 5px;
+    transform:  rotate(45deg) translateY(-5px);
+
+}
+
+#middle ul li{
+    display: inline-block;
+    list-style: none;
+    position: relative;
+    padding: 10px 15px;
+    /* border: 1px solid; */
+
+}
+#middle ul li:hover{
+    color: orange;
+    background-color: white;
+}
+
+#middle ul li a{
+    display: block;
+    color: #222;
+    text-decoration: none;
+
+}
+
+#middle ul li a i{
+    position: relative;
+    right: 10px;
+}
+
+
+
+#middle ul li ul{
+    display: none;
+    position: absolute;
+    background-color: white;
+    padding-top: 10px;
+    border-radius: 0px 0px 4px 4px;
+    left: 0;
+}
+
+#middle ul li:hover ul{
+    display: block;
+    
+
+}
+
+
+#middle ul li ul li a{
+    padding: 8px 14px;
+    border-radius: 5px;
+
+}
+#middle ul li ul li{
+   width: 300px;
+   padding: 5px;
+   border-radius: 0px 0px 4px 4px;
+
+}
+
+
+#middle ul li ul li a:hover{
+    padding: 8px 14px;
+    background-color: orange;
+    color: white;
+
+}
+
+
+
+
+
+
+
+#right{
+    width: 30%;
+    font-size: 30px;
+    /* border: 1px solid red;  */
+    text-align: end;
+
+}
+
+
+
+#signup,#signin{
+    margin: 0 5px;
+    border-radius: 25px;
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: orange;
+    color: white;
+    border: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    font-weight: bold;
+    
+}
+
+#signin{
+    background-color: white;
+    color: green;
+    border: 1px solid green;
+}
+
+
+#signup:hover{
+
+    background-color: rgb(223, 154, 26);
+}
+
+#nav_data{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 300px;
+    height: min-content;
+    min-height: 100vh;
+    background-color: #f5f2ee;
+
+   
+
+}
+
+
+#nav_data > div:nth-child(1) {
+    text-align: center;
+
+}
+
+#nav_data > div:nth-child(1) > button{
+    padding: 10px 13px;
+    border-radius: 20px;
+    margin:  20px 5px;
+
+    
+}
+
+#nav_data > div:nth-child(1) > button:nth-child(1){
+    background-color: #f5f2ee;
+    color: green;
+    border: 1px solid green;
+}
+
+#nav_data > div:nth-child(1) > button:nth-child(2){
+    background-color: green;
+    color: white;
+    border: none;
+
+}
+
+
+#nav_data > div:nth-child(2) ul{
+    padding-left:20px ;
+    list-style-type: none;
+    padding: 10px;
+    
+}
+
+
+#nav_data > div:nth-child(2) ul li{
+    padding: 10px;
+    border-top: 1px dotted green;
+    /* border-bottom: 1px dotted green; */
+}
+
+#nav_data > div:nth-child(2) ul li:last-child{
+    border-bottom: 1px dotted green;
+}
+
+
+#nav_data > div:nth-child(2) ul li ul{
+    padding: 0;
+    overflow: hidden;
+ 
+}
+
+#nav_data > div:nth-child(2) ul li ul li{
+    border: none;
+ 
+}
+#nav_data > div:nth-child(2) ul li ul li:last-child{
+    border: none;
+ 
+}
+
+
+
+
+
+#nav_data > div:nth-child(2) ul li a i{
+    font-size: 5px;
+    transform: translateY(-5px);
+    padding: 5px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 800px) {
+
+    #navbar{
+     
+    }
+
+
+    #middle > ul{
+      display: none;
+    }
+
+    #right {
+        order: 1;
+       display: none;
+        
+    }
+
+    .hamburger{
+        order: 2;
+        display: block;
+        font-size: 40px;
+        transform: translateY(5px);
+    }
+
+
+ }  
+
+@media only screen and (max-width: 1100px) {
+
+    #navbar{
+        flex-wrap: wrap;
+    }
+
+
+    #left{
+        order: 1;
+      
+    }
+
+    #middle {
+        order: 3;
+        width: 100%;
+       display: flex;
+       justify-content: center;
+       padding-top: 10px;
+    }
+
+    #right{
+        order: 2;
+        width: 50%;
+        
+    }
+
+
+
+ }
