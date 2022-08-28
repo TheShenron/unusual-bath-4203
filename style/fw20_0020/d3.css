@@ -89,27 +89,17 @@ input[type="checkbox"] {
     font-size: 18px;
     transform: translateX(10px) translateY(15px);
     color: gray;
+    background-color: white;
+
 }
 
 
 #form>div>div:first-child span,
 #form>div>div:nth-child(2) span {
-    position: absolute;
-    left: 0;
-    font-size: 15px;
-    transform: translateX(13px) translateY(-10px);
-    background-color: white;
-    color: gray;
+    /* font-size: 15px; */
+    /* transform: translateX(13px) translateY(-10px); */
 }
 
-.formMagic{
-    position: absolute;
-    left: 0;
-    font-size: 15px;
-    transform: translateX(13px) translateY(-10px);
-    background-color: white;
-    color: gray;
-}
 
 
 #form>div>div:nth-child(3) {
