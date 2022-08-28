@@ -405,7 +405,10 @@ input[type="checkbox"] {
 
     #signup_form>div {
         width: 85%;
-        ;
+    }
+    #form>div:nth-child(2) > button{        
+        width: 90%;
+        margin: 10px 0;
     }
 }
 
