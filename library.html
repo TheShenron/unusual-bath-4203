@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link  rel="stylesheet" href="style/fp05_288/style.css">
+    
+</head>
+
+<body>
+    <div id="navbar">
+
+    </div>
+    <div id="lib_bodyside">
+
+        <!-- library sidebar -->
+        <div id="lib_sidebar">
+            <div id="diet_library">
+               
+                <div id="first" onclick="diet()">
+                    <h2>Diet Library</h2>
+                </div>
+                
+                <div class="cal" onclick="calorie()">
+                    <img src="data:image/jpeg;base64,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" alt="fire">
+                    <h2>Calori Counting</h2>
+                </div>
+                <div class="cal" onclick="carb_diet()">
+                    <img src="https://cdn-icons-png.flaticon.com/512/5953/5953888.png" alt="low carb"/>
+                    <h2>Low Carb Diet</h2>
+                 </div>
+                <div class="cal">
+                    <img src="https://thumbs.dreamstime.com/b/fresh-juicy-vegetable-avocado-vector-icon-isolated-white-background-flat-style-veg-illustration-healthy-food-single-object-145274764.jpg" alt="keto"/>
+                    <h2>Keto Diet</h2>
+                </div>
+                <div class="cal">
+                    <img src="https://thumbs.dreamstime.com/b/food-high-protein-isolated-healthy-ingredient-meat-raw-group-nutrition-health-superfood-vector-illustration-fish-organic-97175689.jpg" alt="high protein">
+                    <h2>High Protein Diet</h2>
+                </div>
+                <div class="cal">
+                    <img src="https://thumbs.dreamstime.com/b/trans-fat-free-green-icon-zero-transfat-oil-product-food-label-healthy-nutrition-choice-symbol-cholesterol-free-sign-trans-252074631.jpg" alt="low fat"/>
+                    <h2>Low Fat Diet</h2>
+                </div>
+                <div class="cal">
+                    <img src="https://thumbs.dreamstime.com/b/bunch-black-fresh-grapes-hand-drawn-watercolor-painting-white-background-79684585.jpg" alt="medi"/>
+                    <h2>Mediterranean Diet</h2>
+                </div>
+                <div class="cal">
+                    <img src="https://thumbs.dreamstime.com/b/fresh-juicy-veg-carrot-vector-icon-isolated-white-background-flat-style-vegetable-illustration-healthy-food-single-object-145274756.jpg" alt="veg"/>
+                    <h2>Vegeterian Diet</h2>
+                </div>
+                <div class="cal">
+                    <img src="https://thumbs.dreamstime.com/b/vegan-vector-illustration-symbol-v-shape-leaves-text-tahu-136463658.jpg" alt="vegan"/>
+                    <h2>Vegan Diet</h2>
+                </div>  
+            
+            </div>
+            <div id="dietian_team">
+                <h2>Dietian Team</h2>
+            </div>
+            <div id="dietian_blog">
+                <h2>Dietian Blog</h2>
+            </div>
+            
+            <div id="in_the_news">
+                <h2>In the News</h2>
+            </div>
+
+
+        </div>
+        <!-- library body -->
+        <div id="lib_body">
+            <p>The articles below discuss Nutrition, Weight Control, Diabetes and provide valuable tips on using
+                MyNetDiary apps for losing weight healthily.</p>
+            <h1 id="top_header"></h1>
+            <div class="top_body"></div>
+            <h1>Planning Weight, Calories & Nutrients</h1>
+            <div class="Planning_Weight">
+                <div class="left1">
+                    <img src="https://s3.amazonaws.com/img.mynetdiary.com/src/article/planning-weight-and-calories.jpg"
+                        alt="planing1" />
+                    <h3>Planning weight & Calories</h3>
+                    <p>_______</p>
+                    <p>Discover how calories planning works at MyNetDiary to help you reach your goal.</p>
+
+                </div>
+                <div class="left">
+                    <img src="https://s3.amazonaws.com/img.mynetdiary.com/blog/personalized-nutrition-plan.jpeg"
+                        alt="planning_2">
+                    <h3>Develop a personlized nutrients plan</h3>
+                    <p>_______</p>
+                    <p>Learn how to custmoize your targets and track more than 50 nutrients with MyNetDiary</p>
+                </div>
+            </div>
+            <h1>Basics of Tracking</h1>
+            <div class="Planning_Weight">
+                <div class="left">
+                    <img src="https://s3.amazonaws.com/img.mynetdiary.com/blog/food-and-exercise-tracker-app.jpeg"
+                        alt="tracking_1" />
+                    <h3>6 Reasons using a food and exercise tracker app helps with weight loss</h3>
+                    <p>_______</p>
+                    <p>This articles discuss the many benefits of keeping a food diary.</p>
+
+                </div>
+                <div class="left">
+                    <img src="https://s3.amazonaws.com/img.mynetdiary.com/blog/measuring-and-estimating-portion-size.jpeg"
+                        alt="tracking_2">
+                    <h3>Measuring and estimation portion sizes</h3>
+                    <p>_______</p>
+                    <p>Practical tips on portion control,including how to measure and estimate portion size.</p>
+                </div>
+                <div class="left">
+                    <img src="https://s3.amazonaws.com/img.mynetdiary.com/blog/food-database.jpeg" alt="tracking_2">
+                    <h3>Measuring and estimation portion sizes</h3>
+                    <p>_______</p>
+                    <p>Practical tips on portion control,including how to measure and estimate portion size.</p>
+                </div>
+                <div class="left">
+                    <img src="https://s3.amazonaws.com/img.mynetdiary.com/blog/tips-for-entering-editing-and-sharing-recipes-thumb.jpeg"
+                        alt="tracking_2">
+                    <h3>Measuring and estimation portion sizes</h3>
+                    <p>_______</p>
+                    <p>Practical tips on portion control,including how to measure and estimate portion size.</p>
+                </div>
+                <div class="left">
+                    <img src="https://s3.amazonaws.com/img.mynetdiary.com/blog/import-recipes.jpeg" alt="tracking_2">
+                    <h3>Measuring and estimation portion sizes</h3>
+                    <p>_______</p>
+                    <p>Practical tips on portion control,including how to measure and estimate portion size.</p>
+                </div>
+            </div>
+            <h1>Weight Loss & Maintenance</h1>
+            <div class="Planning_Weight">
+                <div class="left">
+                    <img src="https://s3.amazonaws.com/img.mynetdiary.com/src/article/hidden-cues-to-eating.jpeg"
+                        alt="tracking_1" />
+                    <h3>Hidden Cues To Eating</h3>
+                    <p>_______</p>
+                    <p>Learn what drivers us to overeat and what you can do about it.</p>
+
+                </div>
+                <div class="left">
+                    <img src="https://s3.amazonaws.com/img.mynetdiary.com/src/article/why-am-i-not-losing-weight.jpeg"
+                        alt="tracking_2">
+                    <h3>Why am I Not Losing Weight?</h3>
+                    <p>_______</p>
+                    <p>Practical tips on portion control,including how to measure and estimate portion size.</p>
+                </div>
+                <div class="left">
+                    <img src="http://s3.amazonaws.com/img.mynetdiary.com/src/article/weight-loss-maintenance.jpeg" alt="tracking_2">
+                    <h3>Weight Loss Maintenance</h3>
+                    <p>_______</p>
+                    <p>Practical tips on portion control,including how to measure and estimate portion size.</p>
+                </div>
+               
+            </div>
+            <h1>Nutrition Basics</h1>
+            <div class="Planning_Weight">
+                <div class="left">
+                    <img src="https://s3.amazonaws.com/img.mynetdiary.com/src/article/fats.jpeg"
+                        alt="tracking_1" />
+                    <h3>Dietary fats</h3>
+                    <p>_______</p>
+                    <p>This articles discuss the many benefits of keeping a food diary.</p>
+
+                </div>
+                <div class="left">
+                    <img src="https://s3.amazonaws.com/img.mynetdiary.com/blog/3-types-of-carbohydrate.jpeg"
+                        alt="tracking_2">
+                    <h3>Carbohydrates:Starch,sugar,and fiber</h3>
+                    <p>_______</p>
+                    <p>Practical tips on portion control,including how to measure and estimate portion size.</p>
+                </div>
+                <div class="left">
+                    <img src="https://s3.amazonaws.com/img.mynetdiary.com/src/article/the-benefits-of-eating-protein.jpeg" alt="tracking_2">
+                    <h3>The Benefits of Eating Protein</h3>
+                    <p>_______</p>
+                    <p>Practical tips on portion control,including how to measure and estimate portion size.</p>
+                </div>
+                <div class="left">
+                    <img src="https://s3.amazonaws.com/img.mynetdiary.com/blog/how-much-should-you-drink.jpeg"
+                        alt="tracking_2">
+                    <h3>How to figure out how much water you should drink plus an easy way to track it</h3>
+                    <p>_______</p>
+                    <p>Eight-glasses of water- is that really how much you should drink every day? Read on to learn about the factors impacting water needs how much, how often,and how to know if you're on target.  </p>
+                </div>
+                
+            </div>
+            <h1>Diabetes Articles</h1>
+            <p id="lastpara">MyNetDiary provides online tools for tracking blood glucose, insulin, and medications, as well as a special Diabetes Tracker mobile app for <span id="iphone">iPhone</span> and for <span id="android">Android</span> that can sync with the website. The following two articles provide background information on diabetes, and an overview of tracking diabetes with MyNetDiary — how to get the most out of it</p>
+            <div class="Planning_Weight">
+                <div id="left1">
+                    <img src="https://s3.amazonaws.com/img.mynetdiary.com/blog/learn-about-diabetes.jpeg"
+                        alt="planing1" />
+                    <h3>Diabetes basics </h3>
+                    <p>_______</p>
+                    <p>Describes the basics of healthy eating and carb goals for people with diabetes. This article is also helpful for people with prediabetes</p>
+
+                </div>
+                <div class="left">
+                    <img src="https://s3.amazonaws.com/img.mynetdiary.com/blog/tracking-diabetes-2.jpeg"
+                        alt="planning_2">
+                    <h3>Diabetes tracking tips</h3>
+                    <p>_______</p>
+                    <p>Learn how to custmoize your targets and track more than 50 nutrients with MyNetDiary</p>
+                </div>
+            </div>
+            <div id="disclaimer">
+                <svg class="__icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60px" height="60px" viewBox="0 0 42 42">
+                    <path fill-rule="evenodd" fill="rgb(107, 200, 45)" d="M21.008,41.212 C18.734,41.212 16.502,40.855 14.371,40.152 C14.275,40.174 14.212,40.199 14.180,40.217 C13.340,40.604 12.593,40.895 11.802,41.153 C11.525,41.239 11.269,41.304 11.013,41.370 L10.658,41.462 C9.321,41.820 7.779,42.000 6.072,42.000 L5.901,42.000 C4.246,41.990 3.230,41.566 2.796,40.701 C2.640,40.389 2.356,39.569 3.078,38.637 L5.379,35.622 C5.652,35.277 5.808,35.063 5.870,34.901 C2.082,31.029 0.000,25.970 0.000,20.613 C0.000,9.247 9.424,-0.000 21.008,-0.000 C32.584,-0.000 42.000,9.247 42.000,20.613 C42.000,31.971 32.584,41.212 21.008,41.212 ZM21.007,2.909 C11.058,2.909 2.964,10.851 2.964,20.613 C2.964,25.324 4.840,29.767 8.245,33.125 L8.425,33.301 L8.534,33.526 C8.875,34.231 8.932,35.010 8.696,35.779 C8.465,36.438 8.117,36.904 7.749,37.368 L6.447,39.088 C7.738,39.066 8.889,38.921 9.873,38.657 L10.272,38.553 C10.477,38.502 10.682,38.451 10.887,38.387 C11.549,38.170 12.194,37.919 12.836,37.627 C13.202,37.423 13.724,37.276 14.341,37.225 L14.803,37.220 L15.043,37.303 C16.951,37.966 18.958,38.303 21.007,38.303 C30.948,38.303 39.036,30.368 39.036,20.613 C39.036,10.851 30.948,2.909 21.007,2.909 ZM21.719,32.876 C20.963,32.890 20.177,32.919 19.451,32.760 C17.524,32.367 16.428,30.752 16.739,28.862 C17.109,26.579 17.524,24.325 17.925,22.056 C18.043,21.373 18.191,20.689 18.280,20.005 C18.325,19.759 18.295,19.482 18.251,19.249 C18.162,18.784 17.925,18.581 17.465,18.508 C17.213,18.478 16.961,18.493 16.724,18.435 C16.428,18.348 16.087,18.246 15.850,18.071 C15.435,17.766 15.524,17.170 15.998,16.966 C16.235,16.850 16.532,16.792 16.798,16.792 C17.851,16.777 18.918,16.792 19.955,16.792 L23.112,16.792 C23.868,16.792 24.253,17.170 24.357,17.912 C24.461,18.653 24.194,19.351 24.061,20.064 C23.675,22.202 23.260,24.325 22.875,26.448 C22.742,27.176 22.608,27.903 22.490,28.644 C22.460,28.862 22.475,29.110 22.490,29.328 C22.623,30.273 23.171,30.622 24.090,30.389 C24.372,30.316 24.624,30.157 24.891,30.026 C25.143,29.909 25.395,29.750 25.661,29.648 C26.120,29.473 26.491,29.764 26.387,30.229 C26.343,30.491 26.180,30.767 25.987,30.971 C24.816,32.149 23.408,32.847 21.719,32.876 ZM21.852,15.395 C20.089,15.410 18.636,13.985 18.606,12.225 C18.592,10.495 20.029,9.069 21.793,9.055 C23.586,9.055 24.994,10.436 24.994,12.211 C25.009,13.941 23.601,15.366 21.852,15.395 Z"></path>
+                </svg>
+                <p><span id="disc">Disclaimer:</span> The information provided here does not constitute medical advice. If you are seeking medical advice, please visit your healthcare provider or medical professional.</p>
+        
+            </div>
+            
+        </div>
+
+    </div>
+    <div class="Bpage_lastsection">
+        <div>
+            <div></div>
+        </div>
+        <div>
+            <h1>Start Your Free Food Diary Today</h1>
+            <button>SIGN UP</button>
+        </div>
+
+        <div>
+            <img src="https://s3.amazonaws.com/img.mynetdiary.com/images/bg-start-your-free--devices@1x.png?v07092020" alt="">
+        </div>
+    </div>
+    
+
+</body>
+
+</html>
+<script src="script/fp05_288/library.js"></script>

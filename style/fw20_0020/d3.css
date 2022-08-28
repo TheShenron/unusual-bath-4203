@@ -54,7 +54,7 @@
 
 #form>div>div:first-child input,
 #form>div>div:nth-child(2) input {
-    width: 100%;
+    width: 90%;
     padding: 15px;
     font-size: 18px;
     border: 1px solid rgb(175, 173, 173);
@@ -89,27 +89,17 @@ input[type="checkbox"] {
     font-size: 18px;
     transform: translateX(10px) translateY(15px);
     color: gray;
+    background-color: white;
+
 }
 
 
-#form>div>div:first-child span,
+/* #form>div>div:first-child span,
 #form>div>div:nth-child(2) span {
-    position: absolute;
-    left: 0;
     font-size: 15px;
     transform: translateX(13px) translateY(-10px);
-    background-color: white;
-    color: gray;
-}
+} */
 
-.formMagic{
-    position: absolute;
-    left: 0;
-    font-size: 15px;
-    transform: translateX(13px) translateY(-10px);
-    background-color: white;
-    color: gray;
-}
 
 
 #form>div>div:nth-child(3) {
@@ -415,7 +405,10 @@ input[type="checkbox"] {
 
     #signup_form>div {
         width: 85%;
-        ;
+    }
+    #form>div:nth-child(2) > button{        
+        width: 90%;
+        margin: 10px 0;
     }
 }
 
