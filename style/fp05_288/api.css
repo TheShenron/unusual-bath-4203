@@ -20,7 +20,7 @@
     border:0px solid blue;
 }
 #food{
-    border:0px solid green;
+  
     font-family: Rubik,Helvetica,Arial,sans-serif;
     color: #268fd0;
     padding:15px 0 15px 10px;
@@ -32,7 +32,7 @@
     color:#46618a;
 }
 #api{
-    border:0px solid green;
+    
     font-family: Rubik,Helvetica,Arial,sans-serif;
     color: #268fd0;
     padding:15px 0 15px 10px;
@@ -130,7 +130,7 @@ padding:3px 0 3px 0;
         border:0px solid blue;
     }
     #food{
-        border:0px solid green;
+        
         font-family: Rubik,Helvetica,Arial,sans-serif;
         color:white;
         height:0px;
@@ -142,7 +142,7 @@ padding:3px 0 3px 0;
         color:white;
     }
     #api{
-        border:0px solid green;
+        
         font-family: Rubik,Helvetica,Arial,sans-serif;
         color: white;
         height:0px;
