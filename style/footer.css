@@ -3,10 +3,9 @@
     padding: 0;
 } */
 #footer{
-    /* width: 100vw; */
+    margin-top: 80vh;
     display: grid;
     grid-template-columns: repeat(5,1fr);
-    /* border: 1px solid red; */
     gap: 0px;
     background-color: rgb(246,243,240);
     color: rgb(70,97,138);
