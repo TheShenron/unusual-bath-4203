@@ -1,19 +1,8 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-
-
-
-
 .magin {
     display: none;
 }
 
 
-.move{
-    transform: translateX(-300px);
-}
 
 .Height { 
     height: 0;
@@ -23,26 +12,21 @@
 
 
 #navbar{
-    width:100%;
-    position:fixed;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* border: 1px solid blue; */
     background-color: rgb(255,255,255);
-    font-size: 20px;
+    font-size: 18px;
     padding: 10px 15px;
-    /* background-color: gray; */
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    /* transform: translateX(-300px); */
-    /* transition: all .5s ease-in-out;  */
+    box-shadow: rgba(100, 100, 111, 0.082) 0px 4px 10px 0px;
     z-index: 1000;
+    background-color: rgb(20,167,77);
 }
 
 
 #left{
     width: 200px;
-    /* border: 1px solid red; */
 }
 
 #left > img {
@@ -57,7 +41,7 @@
 #middle > ul i {
     font-size: 5px;
     transform:  rotate(45deg) translateY(-5px);
-
+    color: white;
 }
 
 #middle ul li{
@@ -65,17 +49,28 @@
     list-style: none;
     position: relative;
     padding: 10px 15px;
-    /* border: 1px solid; */
+    z-index: 1000;
 
 }
+
+
+
+
 #middle ul li:hover{
-    color: orange;
     background-color: white;
+    border-bottom: 1px solid gainsboro;
+    border-radius: 3px 3px 0 0 ;
 }
+
+#middle > ul > li:hover > a{
+    color: orange;
+}
+
+
 
 #middle ul li a{
     display: block;
-    color: #222;
+    color: white;
     text-decoration: none;
 
 }
@@ -91,36 +86,45 @@
     display: none;
     position: absolute;
     background-color: white;
-    padding-top: 10px;
-    border-radius: 0px 0px 4px 4px;
+    padding: 10px;
+    border-radius: 0 3px 3px 3px;
     left: 0;
+    top: 40px;
 }
 
 #middle ul li:hover ul{
     display: block;
-    
-
 }
 
 
 #middle ul li ul li a{
     padding: 8px 14px;
     border-radius: 5px;
-
+    background-color: white;
 }
+
 #middle ul li ul li{
-   width: 300px;
-   padding: 5px;
+   width: 270px;
+   padding: 0;
    border-radius: 0px 0px 4px 4px;
-
 }
 
+#middle ul li ul li a{
+    color: green;
+}
 
-#middle ul li ul li a:hover{
+#middle ul li ul li a i{
+    color: orange;
+}
+
+#middle ul li ul li:hover > a{
     padding: 8px 14px;
-    background-color: orange;
     color: white;
+    background-color: orange;
+}
 
+#middle ul li ul li:hover > a i{
+    color: white;
 }
 
 
@@ -132,7 +136,6 @@
 #right{
     width: 30%;
     font-size: 30px;
-    /* border: 1px solid red;  */
     text-align: end;
 
 }
@@ -142,8 +145,8 @@
 #signup,#signin{
     margin: 0 5px;
     border-radius: 25px;
-    padding: 15px 30px;
-    font-size: 20px;
+    padding: 13px 20px;
+    font-size: 18px;
     background-color: orange;
     color: white;
     border: none;
@@ -152,10 +155,19 @@
     
 }
 
+#signin > a , #signup > a{
+    text-decoration: none;
+    color: white;
+}
+
 #signin{
     background-color: white;
     color: green;
     border: 1px solid green;
+}
+
+#signin a {
+    color: green;
 }
 
 
@@ -169,12 +181,7 @@
     right: 0px;
     top: 0px;
     width: 300px;
-    height: min-content;
-    min-height: 100vh;
-    background-color: #f5f2ee;
-
-   
-
+    height: 100%;
 }
 
 
@@ -216,7 +223,6 @@
 #nav_data > div:nth-child(2) ul li{
     padding: 10px;
     border-top: 1px dotted green;
-    /* border-bottom: 1px dotted green; */
 }
 
 #nav_data > div:nth-child(2) ul li:last-child{
@@ -247,6 +253,7 @@
     font-size: 5px;
     transform: translateY(-5px);
     padding: 5px;
+    color: white;
     
 }
 
@@ -278,6 +285,7 @@
         display: block;
         font-size: 40px;
         transform: translateY(5px);
+        color: white;
     }
 
 

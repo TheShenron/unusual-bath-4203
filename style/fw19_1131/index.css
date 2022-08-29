@@ -60,11 +60,11 @@
 }
 
 #blocks>div,
-img,
+/* img,
 h3 {
     margin-top: 20px;
     margin-left: 50px;
-}
+} */
 
 #blocks>div:hover {
     background-color: rgb(245, 222, 179)
@@ -162,9 +162,7 @@ h3 {
     width: 100%;
     position: relative;
     overflow: hidden;
-    margin-top: -14rem;
     font-size: 2.6rem;
-    z-index: 0
 }
 
 .upper-part ._layers::after {
@@ -176,7 +174,6 @@ h3 {
     border: .1rem dashed rgba(0, 96, 66, 0.6);
     border-radius: 50%;
     content: '';
-    z-index: 1
 }
 
 .upper-part .__layer-left {
@@ -186,7 +183,6 @@ h3 {
     max-width: 9rem;
     width: 4.69%;
     height: auto;
-    z-index: 2
 }
 
 .upper-part .__layer-right-two {
@@ -194,7 +190,6 @@ h3 {
     bottom: 30rem;
     right: 2%;
     max-width: 9.4rem;
-    z-index: 2
 }
 
 
@@ -210,7 +205,6 @@ h3 {
     border-bottom-right-radius: 100rem 5rem;
     border-bottom-left-radius: 100rem 5rem;
     box-shadow: inset rgba(9, 108, 46, .76) 0 -2.3rem 10.7rem;
-    z-index: 1;
     content: ''
 }
 
@@ -1261,7 +1255,7 @@ only screen and (min-resolution:1.25dppx) {
 }
 
 .section-app-features ._item {
-    font-family: Rubik, Helvetica, Arial, sans-serif;
+    /* font-family: Rubik, Helvetica, Arial, sans-serif; */
     display: -webkit-flex;
     display: flex;
     -webkit-justify-content: space-around;
@@ -1368,7 +1362,7 @@ only screen and (min-resolution:1.25dppx) {
 
 ._headline,
 .section-toprated ._features .__item .__heading {
-    font-family: Rubik, Helvetica, Arial, sans-serif;
+    /* font-family: Rubik, Helvetica, Arial, sans-serif; */
     color: #268fd0;
     font-size: 3rem;
 }
@@ -1489,7 +1483,7 @@ only screen and (min-resolution:1.25dppx) {
 }
 
 .section-more ._tiles .__item .__headline {
-    font-family: Rubik, Helvetica, Arial, sans-serif;
+    /* font-family: Rubik, Helvetica, Arial, sans-serif; */
     line-height: 1.05
 }
 
@@ -2010,7 +2004,6 @@ only screen and (min-resolution:1.25dppx) {
     content: '';
     border-bottom-right-radius: 100rem 5rem;
     border-bottom-left-radius: 100rem 5rem;
-    z-index: 1000
 }
 
 .reviewbox {
