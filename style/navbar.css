@@ -3,9 +3,6 @@
 }
 
 
-.move{
-    transform: translateX(-300px);
-}
 
 .Height { 
     height: 0;
@@ -15,14 +12,16 @@
 
 
 #navbar{
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: rgb(255,255,255);
     font-size: 18px;
-    padding: 5px 15px;
+    padding: 10px 15px;
     box-shadow: rgba(100, 100, 111, 0.082) 0px 4px 10px 0px;
     z-index: 1000;
+    background-color: rgb(20,167,77);
 }
 
 
@@ -42,7 +41,7 @@
 #middle > ul i {
     font-size: 5px;
     transform:  rotate(45deg) translateY(-5px);
-
+    color: white;
 }
 
 #middle ul li{
@@ -50,21 +49,28 @@
     list-style: none;
     position: relative;
     padding: 10px 15px;
+    z-index: 1000;
 
 }
+
+
+
+
 #middle ul li:hover{
     background-color: white;
-    border: 1px solid red;
+    border-bottom: 1px solid gainsboro;
     border-radius: 3px 3px 0 0 ;
 }
 
-#middle ul li:hover > a{
-    /* color: red; */
+#middle > ul > li:hover > a{
+    color: orange;
 }
+
+
 
 #middle ul li a{
     display: block;
-    color: #222;
+    color: white;
     text-decoration: none;
 
 }
@@ -88,8 +94,6 @@
 
 #middle ul li:hover ul{
     display: block;
-    border: 1px solid red;
-
 }
 
 
@@ -105,9 +109,22 @@
    border-radius: 0px 0px 4px 4px;
 }
 
+#middle ul li ul li a{
+    color: green;
+}
+
+#middle ul li ul li a i{
+    color: orange;
+}
 
 #middle ul li ul li:hover > a{
     padding: 8px 14px;
+    color: white;
+    background-color: orange;
+}
+
+#middle ul li ul li:hover > a i{
+    color: white;
 }
 
 
@@ -165,11 +182,6 @@
     top: 0px;
     width: 300px;
     height: 100%;
-    min-height: max-content;
-    background-color: #f5f2ee;
-
-   
-
 }
 
 
@@ -241,6 +253,7 @@
     font-size: 5px;
     transform: translateY(-5px);
     padding: 5px;
+    color: white;
     
 }
 
@@ -272,6 +285,7 @@
         display: block;
         font-size: 40px;
         transform: translateY(5px);
+        color: white;
     }
 
 

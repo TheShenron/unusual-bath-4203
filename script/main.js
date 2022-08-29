@@ -12,14 +12,18 @@ import Footer from "./fw20_1177/Footer.js"
 
 
 
-document.querySelector("#nav_data").classList.add("magin")
 
-
+let isStatus = false
 document.querySelector(".hamburger").addEventListener("click", () => {
-    document.querySelector("#parent_Div").classList.toggle("move")
-    document.querySelector("#nav_data").classList.toggle("magin")
+    if(isStatus == true){
+        isStatus = false
+        document.querySelector("#pageContent").style.transform = "translateX(0)"
 
-
+    }else{
+        isStatus = true
+        document.querySelector("#pageContent").style.transform = "translateX(-300px)"
+    }
+    
 })
 
 
