@@ -15,9 +15,5 @@ https://www.mynetdiary.com/
 
 
 
-
-
-## Feedback
-
-If you have any feedback, please reach out to us at Gourav143faz@gmail.com
+<h2>Deployed Link is: https://jazzy-scone-de755c.netlify.app/</h2>
 
